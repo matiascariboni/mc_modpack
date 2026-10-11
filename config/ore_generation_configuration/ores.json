@@ -1,0 +1,100 @@
+[
+  {
+    "id": "reduce_coal_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.6,
+    "replacement": "auto",
+    "priority": 5
+  },
+  {
+    "id": "reduce_iron_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.55,
+    "replacement": "auto",
+    "priority": 10
+  },
+  {
+    "id": "reduce_copper_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.5,
+    "replacement": "auto",
+    "priority": 20
+  },
+  {
+    "id": "reduce_gold_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.7,
+    "replacement": "auto",
+    "priority": 40
+  },
+  {
+    "id": "reduce_redstone_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:redstone_ore",
+      "minecraft:deepslate_redstone_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.6,
+    "replacement": "auto",
+    "priority": 50
+  },
+  {
+    "id": "reduce_lapis_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:lapis_ore",
+      "minecraft:deepslate_lapis_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.6,
+    "replacement": "auto",
+    "priority": 60
+  },
+  {
+    "id": "reduce_diamond_global",
+    "enabled": true,
+    "blocks": [
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore"
+    ],
+    "dimension_whitelist": [
+      "minecraft:overworld"
+    ],
+    "keep_chance": 0.5,
+    "replacement": "auto",
+    "priority": 70
+  }
+]

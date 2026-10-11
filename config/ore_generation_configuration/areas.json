@@ -1,0 +1,101 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_0",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 128,
+    "dimy": 256,
+    "dimz": 128
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_1",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 224,
+    "dimy": 256,
+    "dimz": 224
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_2",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 448,
+    "dimy": 256,
+    "dimz": 448
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_3",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 768,
+    "dimy": 256,
+    "dimz": 768
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_4",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 1152,
+    "dimy": 256,
+    "dimz": 1152
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_5",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 1600,
+    "dimy": 256,
+    "dimz": 1600
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_6",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 2304,
+    "dimy": 256,
+    "dimz": 2304
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_7",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 3072,
+    "dimy": 256,
+    "dimz": 3072
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "name": "frontier_8",
+    "type": "box",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 4096,
+    "dimy": 256,
+    "dimz": 4096
+  }
+]

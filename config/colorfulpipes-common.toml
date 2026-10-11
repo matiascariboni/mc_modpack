@@ -1,0 +1,84 @@
+#.
+["feature flags"]
+
+	#.
+	#.
+	#show/hide blocks from JEI/Creative tab
+	["feature flags".Fluid]
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Pipes" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Smart Fluid Pipes" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Valves" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Tanks" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		Spouts = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Item Drains" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Interfaces" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Hose Pulleys" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Steam Engines" = true
+
+	#.
+	#show/hide blocks from JEI/Creative tab
+	["feature flags".Palette]
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Steam Whistle" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Table Cloths" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Casings" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Glass Casings" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Tinted Glass Casings" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Ladders" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Scaffolds" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Bars" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Copper Doors" = true
+
+	#.
+	#show/hide blocks from JEI/Creative tab
+	["feature flags".Compats]
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Vessels" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Fluid Hatches" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Experience Hatches" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		"Experience Lanterns" = true
+		#.
+		#show/hide blocks from JEI/Creative tab
+		Printers = true

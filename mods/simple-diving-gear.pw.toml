@@ -1,0 +1,13 @@
+name = "Simple Diving Gear"
+filename = "simpledivegear-10.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d0bf15162041125cec02a2d46a98a5c8c3b2da9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6067684
+project-id = 295373

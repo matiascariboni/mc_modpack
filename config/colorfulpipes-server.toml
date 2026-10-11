@@ -1,0 +1,37 @@
+#.
+#Packmakers' control panel for internal recipe compat
+[recipes]
+
+	#.
+	#.
+	#.
+	[recipes."Item Application"]
+		#.
+		#Allow Create fluid pipe to be colored with dyes.
+		enablePipeItemApplication = true
+		#.
+		#Allow Create fluid Tank to be colored with dyes.
+		enableTankItemApplication = true
+		#.
+		#Allow Create fluid Vessel to be colored with dyes.[Create:Connected]
+		enableVesselItemApplication = true
+		#.
+		#Allow Create steam engine to be colored with dyes.
+		enableSteamEngineItemApplication = true
+		#.
+		#Allow Create steam whistle to be colored with dyes.
+		enableSteamWhistleItemApplication = true
+
+#.
+#Configure behavior of fluid components
+[Fluids]
+	#.
+	#.
+	#Pipes can only connect to pipes of the same color. If true, all pipes can connect freely.
+	allowPipesConnections = false
+	#.
+	#Pipes can only connect to tanks of the same color. If true, all pipes can connect freely to tanks.
+	allowPipesTankConnections = true
+	#.
+	#Pipes can only connect to vessels of the same color. If true, all pipes can connect freely to vessels. [Create: Connected]
+	allowPipesVesselConnections = true

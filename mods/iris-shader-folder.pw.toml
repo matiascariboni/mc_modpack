@@ -1,0 +1,13 @@
+name = "Iris/Oculus Shader Folder"
+filename = "iris_shader_folder-1.4.1-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "b5c72afa8318d6d92125ad74621d22e413b53497"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8512633
+project-id = 1351246

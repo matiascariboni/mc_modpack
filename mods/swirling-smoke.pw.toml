@@ -1,0 +1,13 @@
+name = "Swirling Smoke"
+filename = "swirling_smoke-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "068974baf545b1bd040b03878da2025c562c19cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8271338
+project-id = 1576711

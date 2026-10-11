@@ -1,0 +1,13 @@
+name = "Create: Quarry"
+filename = "create_quarry-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28df7c4082fc97db6660e9f53c62a024593438ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8399898
+project-id = 1600514

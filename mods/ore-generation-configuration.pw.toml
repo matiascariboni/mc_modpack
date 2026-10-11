@@ -1,0 +1,13 @@
+name = "Ore Generation Configuration"
+filename = "ore_generation_configuration-neoforge-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2640f46cd9f2cb9edb09d4920c9cb01a47705c48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8153928
+project-id = 1538262

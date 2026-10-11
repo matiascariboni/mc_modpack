@@ -1,0 +1,44 @@
+#Maximum allowed distance (blocks) between two linked Quarry Stakes.
+# Default: 64
+# Range: 1 ~ 512
+maximumDiameter = 64
+#Base Stress Impact of the Quarry at Efficiency 0.
+# Default: 16.0
+# Range: 0.0 ~ 1024.0
+baseStressImpact = 16.0
+#Hard cap on how many positions the Quarry may process in a single tick.
+# Default: 96
+# Range: 1 ~ 4096
+scanOperationsPerTick = 96
+#Scales kinetic RPM into base scan operations per tick, before Efficiency and the tick cap.
+#Fractional results below 1 are accumulated across ticks instead of rounding up.
+# Default: 0.00625
+# Range: 0.0 ~ 10.0
+rpmSpeedMultiplier = 0.00625
+#Speed multipliers indexed by Efficiency enchantment level (index 0 = no Efficiency).
+efficiencySpeedMultipliers = [1.0, 1.15, 1.3, 1.45, 1.6, 2.0]
+#Stress Impact multipliers indexed by Efficiency enchantment level (index 0 = no Efficiency).
+efficiencyStressMultipliers = [1.0, 1.1, 1.2, 1.3, 1.4, 1.6]
+#Block tags recognized as valid ores when no Filter is inserted.
+oreTags = ["c:ores"]
+#Block ids that can never be extracted or used as a replacement, regardless of tags/filters.
+absoluteBlacklist = ["minecraft:bedrock", "minecraft:spawner", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:nether_portal", "minecraft:command_block"]
+#Fallback replacement block per dimension, formatted as "<dimension>;<block>".
+dimensionFallbackBlocks = ["minecraft:overworld;minecraft:stone", "minecraft:the_nether;minecraft:netherrack", "minecraft:the_end;minecraft:end_stone"]
+#In the Overworld, Y levels below this threshold fall back to deepslate instead of stone.
+# Default: 0
+# Range: > -2147483648
+deepslateHeightThreshold = 0
+#Master switch for optional fluid collection. Still requires a Fluid Tank to be connected.
+enableFluidCollection = true
+#Limits fluid collection to source blocks. Flowing fluids are otherwise ignored.
+collectSourceFluidsOnly = true
+#Amount of fluid (mB) collected per source block.
+# Default: 1000
+# Range: 1 ~ 81000
+fluidAmountPerSource = 1000
+#Allows the Quarry to keep its own chunk and the currently scanned chunk loaded.
+#Disabled by default; consider Create: Power Loader for stricter modpack integration.
+enableChunkLoading = false
+#Automatically restarts scanning the same area after reaching COMPLETED.
+autoRestart = false

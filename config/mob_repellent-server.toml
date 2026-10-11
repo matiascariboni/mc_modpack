@@ -1,0 +1,30 @@
+#
+# Defines the spherical range of action in blocks of the Wooden Brazier.
+# Default: 20
+# Range: > 0
+wooden_brazier_range = 20
+#
+# Defines the chance that the Wooden Brazier will extinguish itself after successfully preventing a mob from spawning.
+# Disabled: 0
+# Default: 256
+# Range: > 0
+wooden_brazier_extinguish_chance = 256
+#
+# Defines the spherical range of action in blocks of the Stone Brazier.
+# Default: 40
+# Range: > 0
+stone_brazier_range = 40
+#
+# Defines the chance that the Stone Brazier will extinguish itself after successfully preventing a mob from spawning.
+# Disabled: 0
+# Default: 1024
+# Range: > 0
+stone_brazier_extinguish_chance = 1024
+#
+# Defines the spherical range of action in blocks of the Terracotta Brazier.
+# Default: 60
+# Range: > 0
+terracotta_brazier_range = 60
+#
+# Defines if the braziers should also prevent spawners from spawning mobs.
+prevent_spawners = false

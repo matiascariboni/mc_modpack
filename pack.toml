@@ -1,0 +1,13 @@
+name = "MatiasWorld"
+author = "falaserioloke"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cd7254d7e70b5708f7b0a97078ccd5a994df984aaef121f42c36b4a19f291c2a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

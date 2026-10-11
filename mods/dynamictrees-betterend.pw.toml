@@ -1,0 +1,13 @@
+name = "Dynamic Trees - BetterEnd"
+filename = "dtbetterend-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e520c1c19cba78160f84204dce47a78b6c0478c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8800525
+project-id = 1606259

@@ -1,0 +1,13 @@
+name = "PictureCam"
+filename = "PictureCam 1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lQyDXn6R/versions/M2f29wb2/PictureCam%201.0.1.jar"
+hash-format = "sha512"
+hash = "e03466fc4c09162a81291b9db3b947cf7aaddd0038d20b73edc41cad464296ac2b18683f2263de051521e073d39d53a74d866868904eddd038cb794af0c37fad"
+
+[update]
+[update.modrinth]
+mod-id = "lQyDXn6R"
+version = "M2f29wb2"

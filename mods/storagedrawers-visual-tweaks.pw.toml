@@ -1,0 +1,13 @@
+name = "Storage Drawers Visual Tweaks"
+filename = "storagedrawers-visual-tweaks-0.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/evl8kCQ4/versions/h8AN6TMS/storagedrawers-visual-tweaks-0.1.0.jar"
+hash-format = "sha512"
+hash = "29fb9b64d7d0de95418d3a838477a7bb8853d8d6a669c071a051d481e78e73fb4677cab721947f584bd2f214148792f618069ae2cf6a5912e0cbbd550bfc6298"
+
+[update]
+[update.modrinth]
+mod-id = "evl8kCQ4"
+version = "h8AN6TMS"

@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "debug_logging": false,
+  "dry_run": false,
+  "fail_on_unknown_blocks": false,
+  "fail_on_unknown_biomes": false,
+  "default_keep_chance": 1.0,
+  "print_startup_summary": true,
+  "chunks_per_tick": 1,
+  "direct_chunk_writes": true,
+  "unsafe_replacement_behavior": "auto"
+}

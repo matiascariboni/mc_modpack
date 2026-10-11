@@ -1,0 +1,13 @@
+name = "Mob Repellent"
+filename = "Mob-Repellent-NeoForge-1.2.1-mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f31320070aa727c12439df65dd811e57b0882c18"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8065185
+project-id = 1075803
