@@ -19,7 +19,7 @@ Instalación única, unos 10 minutos. Después, cada vez que abras el juego se a
 1. **Añadir instancia > Vanilla**, versión **1.21.1**.
 2. **Editar instancia > Versión > Instalar Loader > NeoForge** y elige **21.1.248**.
 3. Descarga `packwiz-installer-bootstrap.jar` desde <https://github.com/packwiz/packwiz-installer-bootstrap/releases> y cópialo en la carpeta de juego: clic derecho en la instancia > **Carpeta > Minecraft** (la que contiene `config` y `mods`).
-4. **Editar instancia > Configuración > Comandos personalizados**, marca la casilla y en **Comando de pre-lanzamiento** pon:
+4. **Editar instancia > Configuración > Comandos personalizados**, marca la casilla *Override Global Settings* y en **Pre-launch Command** pon:
 
         "$INST_JAVA" -jar packwiz-installer-bootstrap.jar -g -s client https://raw.githubusercontent.com/matiascariboni/mc_modpack/master/pack.toml
 
@@ -44,5 +44,7 @@ Tus gráficos (`options.txt`), shaders, resource packs, la configuración de Dis
 | Error de versión al conectar | Comprueba la versión de NeoForge (21.1.248). Si el administrador la cambió, actualízala en Editar instancia > Versión. |
 | Un mod pide descarga manual | Su autor restringe descargas de terceros. Avisa al administrador. |
 | Quiero forzar una resincronización | Cierra el juego y ábrelo de nuevo: el pre-lanzamiento se ejecuta cada vez. |
+| Prism avisa de que una config se reseteó | Es normal tras actualizar un mod; acéptalo. Si se repite en cada arranque, avisa al administrador. |
+| El juego dice `requires X or above` | Avisa al administrador con una captura de pantalla. |
 
 Más detalles en el [README](../README.md).

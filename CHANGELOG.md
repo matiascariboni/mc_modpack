@@ -1,33 +1,55 @@
 # Changelog
 
-Todos los cambios relevantes del modpack se anotan aquÃƒÆ’Ã‚Â­. Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
+Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Sin publicar]
+## [1.0.1] - 2026-10-11
 
-### AÃƒÂ±adido
+### Añadido
 
-- Carpeta `docs/` con documentaciÃƒÂ³n de referencia de mods (empezando por Open Parties and Claims). EstÃƒÂ¡ excluida en `.packwizignore`, asÃƒÂ­ que no se distribuye a servidor ni clientes; solo vive en el repositorio.
-- SecciÃ³n en el README con el procedimiento para decidir y verificar quÃ© archivos se excluyen del pack.
-
-## [1.0.0] - 2026-10-11
-
-Primera versiÃƒÆ’Ã‚Â³n del pack gestionado con packwiz. Sustituye el sistema anterior, en el que los mods y configs se pasaban a mano por mensajerÃƒÆ’Ã‚Â­a.
-
-### AÃƒÆ’Ã‚Â±adido
-
-- Modpack inicial para Minecraft 1.21.1 con NeoForge 21.1.248.
-- 177 mods registrados con packwiz (metadatos de CurseForge y Modrinth) y 4 parches propios como jars locales: `apotheosis_less_towers_fix`, `matias_ae2_less_meteorites_fix`, `matias_less_mowzie_structures_fix` y `picturecam-leather-fix`.
-- 246 archivos de configuraciÃƒÆ’Ã‚Â³n copiados de la carpeta `config/` del servidor, que es la fuente de verdad.
-- AsignaciÃƒÆ’Ã‚Â³n de lado por mod:
-  - Solo cliente: Sodium, Iris, Iris Shader Folder, NeoContinuity, Entity Culling, Entity Texture Features, BetterF3, AmbientSounds, Cubes Without Borders, Sound Physics Remastered y Storage Drawers Visual Tweaks.
-  - Solo servidor: VoxelDash (antes se copiaba a mano; ahora se instala desde Modrinth).
-- `.packwizignore` para excluir configs de cliente, Distant Horizons, `fml.toml`, `ferritecore-mixin.toml`, JEI, Spark, bases de datos, backups y archivos temporales. Cada jugador conserva sus ajustes grÃƒÆ’Ã‚Â¡ficos y de rendimiento.
-- `.gitattributes` con `* -text` para que git no altere los saltos de lÃƒÆ’Ã‚Â­nea y los hashes del ÃƒÆ’Ã‚Â­ndice sigan siendo vÃƒÆ’Ã‚Â¡lidos.
-- SincronizaciÃƒÆ’Ã‚Â³n automÃƒÆ’Ã‚Â¡tica del servidor (paso previo al arranque) y de Prism (comando de pre-lanzamiento).
+- El servicio `minecraft.service` sincroniza el pack antes de arrancar (`ExecStartPre` con packwiz-installer y `TimeoutStartSec=600`). Si el sync falla, el servidor no arranca.
+- README: secciones sobre mods de CurseForge con descarga restringida y sobre qué vigilar al actualizar mods.
+- Guía de administrador y de jugadores ampliadas con nuevos problemas frecuentes.
+- Carpeta `docs/` con documentación de referencia de mods (empezando por Open Parties and Claims). Está excluida en `.packwizignore`, así que no se distribuye a servidor ni clientes; solo vive en el repositorio.
+- Sección en el README con el procedimiento para decidir y verificar qué archivos se excluyen del pack.
 
 ### Cambiado
 
-Versiones que packwiz tomÃƒÆ’Ã‚Â³ mÃƒÆ’Ã‚Â¡s recientes que las que habÃƒÆ’Ã‚Â­a instaladas:
+- Casi todos los mods pasaron de CurseForge a Modrinth (mismo archivo, localizado por hash). Motivo: 11 mods tenían bloqueada la descarga por terceros y el servidor no arrancaba. Siguen en CurseForge: Gabou's Libs, NeoContinuity y Ore Generation Configuration.
+- Versiones que cambiaron en la migración:
+
+| Mod | Antes | Ahora |
+|---|---|---|
+| Create Aeronautics | 1.3.0 | 1.3.2 |
+| Sable | 2.0.5 | 2.0.6 |
+| JEI | 19.44.0.403 | 19.57.0.451 |
+| Geckolib | 4.9.2 | 4.9.3 |
+| Not Enough Animations | 1.12.4 | 1.12.6 |
+| Subtle Effects | 1.14.3 | 1.15.0 |
+| Fzzy Config | 0.7.6 | 0.7.7 |
+
+### Notas
+
+- Subtle Effects 1.15.0 exige Fzzy Config 0.7.7 o superior. Se aceptó mal la dependencia al migrar y el cliente no cargaba; se solucionó actualizando Fzzy Config.
+- El instalador no borra jars que él no instaló: antes del primer sync hubo que vaciar `mods` en el servidor y en el cliente.
+## [1.0.0] - 2026-10-11
+
+Primera versión del pack gestionado con packwiz. Sustituye el sistema anterior, en el que los mods y configs se pasaban a mano por mensajería.
+
+### Añadido
+
+- Modpack inicial para Minecraft 1.21.1 con NeoForge 21.1.248.
+- 177 mods registrados con packwiz (metadatos de CurseForge y Modrinth) y 4 parches propios como jars locales: `apotheosis_less_towers_fix`, `matias_ae2_less_meteorites_fix`, `matias_less_mowzie_structures_fix` y `picturecam-leather-fix`.
+- 246 archivos de configuración copiados de la carpeta `config/` del servidor, que es la fuente de verdad.
+- Asignación de lado por mod:
+  - Solo cliente: Sodium, Iris, Iris Shader Folder, NeoContinuity, Entity Culling, Entity Texture Features, BetterF3, AmbientSounds, Cubes Without Borders, Sound Physics Remastered y Storage Drawers Visual Tweaks.
+  - Solo servidor: VoxelDash (antes se copiaba a mano; ahora se instala desde Modrinth).
+- `.packwizignore` para excluir configs de cliente, Distant Horizons, `fml.toml`, `ferritecore-mixin.toml`, JEI, Spark, bases de datos, backups y archivos temporales. Cada jugador conserva sus ajustes gráficos y de rendimiento.
+- `.gitattributes` con `* -text` para que git no altere los saltos de línea y los hashes del índice sigan siendo válidos.
+- Sincronización automática del servidor (paso previo al arranque) y de Prism (comando de pre-lanzamiento).
+
+### Cambiado
+
+Versiones que packwiz tomó más recientes que las que había instaladas:
 
 | Mod | Antes | Ahora |
 |---|---|---|
@@ -45,9 +67,9 @@ Distant Horizons estaba en versiones distintas en servidor y cliente; ahora ambo
 
 - Separate Sable Render Distance (SSRD) queda como `both`, porque Modrinth lo declara necesario en el servidor.
 - Se rechazaron las dependencias opcionales Better Days (Serene Seasons Plus) y Sodium/Sable (SSRD): Sodium y Sable ya estaban en el pack y los mods funcionan sin Better Days.
-- Se eliminÃƒÆ’Ã‚Â³ la entrada `cc-tweaked-compat`, un proyecto equivocado asociado por huella digital; CC: Tweaked se registra desde Modrinth.
-- No se distribuyen `server.properties`, `defaultconfigs/`, `world/serverconfig/` ni los lÃƒÆ’Ã‚Â­mites de render y simulaciÃƒÆ’Ã‚Â³n: son del servidor.
+- Se eliminó la entrada `cc-tweaked-compat`, un proyecto equivocado asociado por huella digital; CC: Tweaked se registra desde Modrinth.
+- No se distribuyen `server.properties`, `defaultconfigs/`, `world/serverconfig/` ni los límites de render y simulación: son del servidor.
 
-### MigraciÃƒÆ’Ã‚Â³n
+### Migración
 
-Antes del primer sync hay que vaciar la carpeta `mods` del servidor y de cada instancia de Prism (conservando una copia de respaldo), porque el instalador no borra jars que ÃƒÆ’Ã‚Â©l no instalÃƒÆ’Ã‚Â³.
+Antes del primer sync hay que vaciar la carpeta `mods` del servidor y de cada instancia de Prism (conservando una copia de respaldo), porque el instalador no borra jars que él no instaló.

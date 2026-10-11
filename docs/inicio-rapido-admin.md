@@ -20,7 +20,7 @@ Todas se hacen desde la carpeta del repo.
     .\packwiz.exe modrinth add <nombre-o-url>
     .\packwiz.exe curseforge add <nombre-o-url>
 
-1. Acepta las dependencias, salvo que ya estén en el pack con otro origen (evita duplicados).
+1. Prefiere Modrinth (`modrinth add`): algunos autores bloquean en CurseForge la descarga por terceros y el servidor no arrancaría. Acepta las dependencias, salvo que ya estén en el pack con otro origen; en ese caso comprueba que la versión instalada cumple el mínimo que pide el mod.
 2. Abre `mods\<mod>.pw.toml` y revisa la línea `side`: `client`, `server` o `both`. Corrígela si es un mod solo de cliente o solo de servidor.
 3. Publica (ver "Publicar un cambio").
 
@@ -66,7 +66,7 @@ Aplicar el cambio:
 
 No se sincroniza solo. Cambia `minecraft` o `neoforge` en `pack.toml` (o con `packwiz migrate`), actualiza el servidor y avisa a los jugadores para que cambien la versión en Prism.
 
-## Servidor: configuración inicial (una sola vez)
+## Servidor: configuración inicial (una sola vez; ya aplicada en el servidor actual)
 
 El servidor corre en Linux bajo systemd. Los pasos son:
 
@@ -122,3 +122,7 @@ El heap de Java se calcula solo según la RAM de la instancia (script previo al 
 | Un mod de Modrinth queda en `both` con un valor de entorno raro | Corrige `side` a mano en su `.pw.toml`. |
 | El servidor no arranca tras un cambio | Mira `journalctl -u minecraft.service -n 100`. Si falla el `ExecStartPre`, el problema es de red o del pack. |
 | Volver atrás | `git revert <commit>`, `packwiz refresh` si hace falta, push y reinicia el servidor. |
+| El servicio se reinicia en bucle | El sync falla (por ejemplo, un mod con descarga restringida) y `Restart=on-failure` reintenta cada 10 s. Ejecuta `sudo systemctl stop minecraft`, corrige el pack y repite el sync a mano para ver el error completo. |
+| `This mod is excluded from the CurseForge API` | Migra ese mod a Modrinth (sección "Mods de CurseForge con descarga restringida" del README). |
+| El juego dice `requires X or above` | Falta una versión mínima de una librería: `packwiz update <slug>`, refresh, commit y push. |
+| Aviso de config reseteada tras actualizar un mod | El mod migró su config. Copia la nueva a `config/`, refresh, commit y push. |
