@@ -3,11 +3,11 @@ filename = "thief-neoforge-1.21.1-1.2.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b60329465bd719462d171a320ca39134c990ab47"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/dGtSkt4t/versions/Zhr0tVOO/thief-neoforge-1.21.1-1.2.4.jar"
+hash-format = "sha512"
+hash = "efb6537917445fbafde083f40e4308ee3b1cd40e97576edc4e2b79b2e951668710492e973846898b94ec3d5eed497bb2eceef1e7dd281e9ea2c4f3c2fadb7d29"
 
 [update]
-[update.curseforge]
-file-id = 8540540
-project-id = 839159
+[update.modrinth]
+mod-id = "dGtSkt4t"
+version = "Zhr0tVOO"

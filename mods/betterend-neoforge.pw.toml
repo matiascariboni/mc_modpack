@@ -3,11 +3,11 @@ filename = "BetterEnd-21.0.34.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "149b73179ea63bf777315a7c850b2eba65c554bd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/IcERKldh/versions/u4FzuAXz/BetterEnd-21.0.34.jar"
+hash-format = "sha512"
+hash = "581b0da37a3034544ab7dc009d013a4e24ad563a1fd41a36ed24656efb423405e03a065216b60518a537375c71bd96508e940b5605a82dc7cb10b029ea08cb02"
 
 [update]
-[update.curseforge]
-file-id = 8610367
-project-id = 1422294
+[update.modrinth]
+mod-id = "IcERKldh"
+version = "u4FzuAXz"

@@ -3,11 +3,11 @@ filename = "Mob-Repellent-NeoForge-1.2.1-mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f31320070aa727c12439df65dd811e57b0882c18"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/XV1TMTqe/versions/Ud59teog/Mob-Repellent-NeoForge-1.2.1-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "e07de30ee6effc6c10231795482b00c9ba909d7881ac9f19c9646c16b0639eddbea605c051ef87e136b7bda191611ffe835adcd57e23fc2faf0dfee12ea96bdc"
 
 [update]
-[update.curseforge]
-file-id = 8065185
-project-id = 1075803
+[update.modrinth]
+mod-id = "XV1TMTqe"
+version = "Ud59teog"

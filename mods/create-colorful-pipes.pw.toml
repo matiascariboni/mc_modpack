@@ -3,11 +3,11 @@ filename = "Create_Colorful_Pipes_NeoForge-2.4.3+1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "dc978d4560a0cfeb377c31c898976728066a66d9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Bug7e6Xo/versions/dQ3na0PQ/Create_Colorful_Pipes_NeoForge-2.4.3%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "40938d4c1b63cf0d6533fd57cf98534b7d4f49b891e25d76297bfadd1d295e2052062f8d3be243b49ae4142f93b0366e45c7e7aa9cc859e0f06ae481e4936449"
 
 [update]
-[update.curseforge]
-file-id = 8355688
-project-id = 1487757
+[update.modrinth]
+mod-id = "Bug7e6Xo"
+version = "dQ3na0PQ"

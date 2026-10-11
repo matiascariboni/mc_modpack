@@ -3,11 +3,11 @@ filename = "dtbetterend-1.21.1-2.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1e520c1c19cba78160f84204dce47a78b6c0478c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hsutGSf2/versions/y4x7EK4Z/dtbetterend-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "fabb9027a594bb4dcf8c2dfb68714fbb89c8cc51680e4e26cb88e372801657f3b5d85f5ab036353df903e199198390a5ee3da29d5737443a29bc4cdb7ab78c49"
 
 [update]
-[update.curseforge]
-file-id = 8800525
-project-id = 1606259
+[update.modrinth]
+mod-id = "hsutGSf2"
+version = "y4x7EK4Z"

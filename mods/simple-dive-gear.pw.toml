@@ -1,0 +1,13 @@
+name = "Simple Dive Gear"
+filename = "simpledivegear-10.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z5TFzH0r/versions/4ZexmS2I/simpledivegear-10.0.0.jar"
+hash-format = "sha512"
+hash = "a0958e8134f565aba61c95a7d3bed06f86405e186a0c92120b8740c5fb27e6333cdd0169827afaebe8ae40b2b9338adc8ca3b531ec6f46497bd4353594e223fb"
+
+[update]
+[update.modrinth]
+mod-id = "Z5TFzH0r"
+version = "4ZexmS2I"

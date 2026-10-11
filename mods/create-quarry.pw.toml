@@ -3,11 +3,11 @@ filename = "create_quarry-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "28df7c4082fc97db6660e9f53c62a024593438ab"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/gLTAirKi/versions/jRlM81Cx/create_quarry-1.0.1.jar"
+hash-format = "sha512"
+hash = "78d70fd4e0d8249f3712d1b250ab7fc40359808342f8da28b721066c52626410b2693ae791d70cdd7819c2a0d890d7a65d88fc6f184d4c16c69364abb660ce0a"
 
 [update]
-[update.curseforge]
-file-id = 8399898
-project-id = 1600514
+[update.modrinth]
+mod-id = "gLTAirKi"
+version = "jRlM81Cx"

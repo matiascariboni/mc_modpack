@@ -3,11 +3,11 @@ filename = "realisticbees-1.21.1-4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3f23eb79f92ba5571246909f6b3fe4dfcf560497"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tG6HkcWx/versions/KTWiwQK4/realisticbees-1.21.1-4.2.jar"
+hash-format = "sha512"
+hash = "eb3d5462439966fd7b045655992d54cdc1149b4f5089ec2798835f95aefb95bd18de9c5d15ac41d6a2ab20524e2bd93440727e03f0dfe43cc0827504374cb461"
 
 [update]
-[update.curseforge]
-file-id = 6390676
-project-id = 410743
+[update.modrinth]
+mod-id = "tG6HkcWx"
+version = "KTWiwQK4"
