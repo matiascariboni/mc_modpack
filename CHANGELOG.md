@@ -6,6 +6,7 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Añadido
 
+- Attack Through Grass 2.0.3 (Modrinth, solo cliente). Permite golpear a un mob aunque haya hierba, flores u otras plantas en su mismo bloque, en vez de romper la planta.
 - Better Days 3.3.6.3 (Modrinth). Es el mod que aplica la velocidad del tiempo que calcula Serene Seasons Plus; sin él, `changeDayNightLengthsWithSeasons` no tenía efecto. Config en `config/betterdays-common.toml`: `clearWeatherOnWake = false` y `allowDaySleep = false`.
 
 ### Documentación

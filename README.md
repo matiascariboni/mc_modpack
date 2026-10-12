@@ -57,7 +57,7 @@ La lista exacta de exclusiones está en `.packwizignore`.
 
 ### Mods por lado
 
-- **Solo cliente:** Sodium, Iris, Iris Shader Folder, NeoContinuity, Entity Culling, Entity Texture Features, BetterF3, AmbientSounds, Cubes Without Borders, Sound Physics Remastered, Storage Drawers Visual Tweaks.
+- **Solo cliente:** Sodium, Iris, Iris Shader Folder, NeoContinuity, Entity Culling, Entity Texture Features, Attack Through Grass, BetterF3, AmbientSounds, Cubes Without Borders, Sound Physics Remastered, Storage Drawers Visual Tweaks.
 - **Solo servidor:** VoxelDash.
 - **Ambos:** todo lo demás, incluido Separate Sable Render Distance (SSRD).
 
