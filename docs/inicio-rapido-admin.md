@@ -22,7 +22,7 @@ Todas se hacen desde la carpeta del repo.
 
 1. Prefiere Modrinth (`modrinth add`): algunos autores bloquean en CurseForge la descarga por terceros y el servidor no arrancaría. Acepta las dependencias, salvo que ya estén en el pack con otro origen; en ese caso comprueba que la versión instalada cumple el mínimo que pide el mod.
 2. Abre `mods\<mod>.pw.toml` y revisa la línea `side`: `client`, `server` o `both`. Corrígela si es un mod solo de cliente o solo de servidor.
-3. Publica (ver "Publicar un cambio").
+3. Publica (ver "Publicar un cambio"), lanza una instancia de cliente para que el mod genere sus configs y usa esos archivos como base para configurarlo. Procedimiento completo en la sección "Instalar un mod nuevo" del README.
 
 ### Quitar un mod
 
@@ -41,7 +41,7 @@ Tras actualizar, prueba que el servidor y un cliente arrancan antes de avisar al
 ### Cambiar una configuración
 
 1. Edita el archivo en `config\` del repo (nunca directamente en el servidor: el pack lo sobrescribiría).
-2. Si es una config de cliente o personal, no debe estar en el pack: añádela a `.packwizignore`.
+2. Si afecta al rendimiento o es personal (gráficos, atajos de teclado, rutas locales), no debe estar en el pack: añádela a `.packwizignore`. Las configs de cliente que no afectan al rendimiento sí se distribuyen.
 3. Publica.
 
 ### Añadir archivos nuevos al repo (docs, notas...)

@@ -8,6 +8,10 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 - Better Days 3.3.6.3 (Modrinth). Es el mod que aplica la velocidad del tiempo que calcula Serene Seasons Plus; sin él, `changeDayNightLengthsWithSeasons` no tenía efecto. Config en `config/betterdays-common.toml`: `clearWeatherOnWake = false` y `allowDaySleep = false`.
 
+### Documentación
+
+- Nuevo procedimiento "Instalar un mod nuevo" en el README: instalar, push, lanzar una instancia, usar los configs generados por el mod como base y volver a publicar. La guía del administrador lo enlaza.
+
 ### Cambiado
 
 - Las configs de cliente que no afectan al rendimiento (61 archivos, de Create, Mekanism, AE2, Sound Physics, partículas, efectos visuales, etc.) ahora se distribuyen a los clientes. Se siguen excluyendo Sodium, Iris, Distant Horizons, Entity Culling, ETF/EMF, FerriteCore, JEI, spark, `neoforge-client.toml`, atajos de teclado y archivos con rutas locales. Se quitaron de `.packwizignore` `*-client.*`, `**/client.*` y Sound Physics.

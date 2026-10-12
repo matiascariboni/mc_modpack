@@ -83,6 +83,22 @@ Reglas útiles:
 - **Cambios de Minecraft o NeoForge** no se sincronizan solos: hay que avisar a los jugadores para cambiar la versión en Prism.
 - Anota cada cambio relevante en `CHANGELOG.md`.
 
+## Instalar un mod nuevo (procedimiento con sus configs)
+
+Un mod genera su config al arrancar. Si el repo trae un archivo escrito a mano o incompleto, el mod lo "corrige" en cada máquina (en el log aparece `is not correct. Correcting`) y el pack y las instancias se desincronizan. Por eso la config que se distribuye debe ser siempre **la que genera el propio mod**:
+
+1. **Instala el mod en el pack:** `packwiz modrinth add <mod>`, revisa su `side` en `mods/<mod>.pw.toml`, `packwiz refresh`, commit y push.
+2. **Lanza una instancia de cliente** (Prism) para que sincronice el pack y el mod genere sus archivos en `config/`. Revisa el log (`logs/latest.log`) por si el mod avisa de algo.
+3. **Usa esos archivos como base:** copia los configs generados a una carpeta de trabajo y modifícalos a tu gusto. No escribas configs desde cero.
+4. **Cópialos a `config/` del repo, `packwiz refresh`, commit y push.** Lanza otra vez la instancia y comprueba que el mod no vuelve a corregirlos: no debe haber `Correcting` en el log y el contenido de la instancia debe coincidir con el del repo.
+
+Al copiar, aplica estas reglas:
+
+- **Comparte** las configs de gameplay y las de cliente que no afectan al rendimiento.
+- **Excluye** (en `.packwizignore`, antes del `refresh`) las de rendimiento o personales: gráficos, render, atajos de teclado, rutas locales, historiales y marcadores. Si dudas, abre el archivo y busca rutas (`C:\Users\...`) o nombres de jugador.
+- **No copies** los `*.bak`, `*.bak.1` ni otros archivos de respaldo.
+- Si el mod tiene una librería que también genera config, copia también la suya.
+
 ## Mods de CurseForge con descarga restringida
 
 Algunos autores bloquean en CurseForge la descarga por terceros. Si hay alguno en el pack, el instalador falla con `This mod is excluded from the CurseForge API and must be downloaded manually` y el servidor no arranca. Por eso **se prefiere Modrinth**:
