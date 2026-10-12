@@ -653,10 +653,6 @@ file = "config/blueprint-common.toml"
 hash = "251f732f07620eab2bb5e56eb068e39e6d651d26aaa7094f59d090d9ce82ede7"
 
 [[files]]
-file = "config/chisel.json"
-hash = "f30375505d2b59c55c43f5157f53c97251c1ad40aa64dd210a38b80c9cdd7d0b"
-
-[[files]]
 file = "config/chunkloaders-common.toml"
 hash = "eb62dfa3c0b52eb240bcc7a5b50ffbf4d0ff7bdae2fe94fec5f44ab0feeff9c2"
 
@@ -1363,11 +1359,6 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
-metafile = true
-
-[[files]]
-file = "mods/chisel-reborn.pw.toml"
-hash = "0752ec9f3ef57c06a49813e1d1d1d442a124b3a7586bd232003055dc343a317f"
 metafile = true
 
 [[files]]
