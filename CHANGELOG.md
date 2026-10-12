@@ -10,6 +10,7 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Cambiado
 
+- Las configs de cliente que no afectan al rendimiento (61 archivos, de Create, Mekanism, AE2, Sound Physics, partículas, efectos visuales, etc.) ahora se distribuyen a los clientes. Se siguen excluyendo Sodium, Iris, Distant Horizons, Entity Culling, ETF/EMF, FerriteCore, JEI, spark, `neoforge-client.toml`, atajos de teclado y archivos con rutas locales. Se quitaron de `.packwizignore` `*-client.*`, `**/client.*` y Sound Physics.
 - Serene Seasons Plus: `keepFullDayNightCycleAtFixedLength = true` con `fullDayNightCycleLengthInRealMinutes = 20.0`. Todos los días duran 20 minutos reales y las estaciones solo cambian el reparto día/noche (de 33 % de luz en invierno a 67 % en verano, equivalente a unos 51° de latitud norte). Los 24 multiplicadores por subestación están calculados para las ventanas de Better Days (día 13000 ticks, noche 11000), por eso no se deben cambiar `dayStart` ni `nightStart`.
 
 ## [1.0.1] - 2026-10-11

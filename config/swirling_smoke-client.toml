@@ -1,0 +1,58 @@
+#Apply world weather wind to smoke particles.
+enableWeatherWind = true
+#Use persistent calm, normal, strong, and gust wind states.
+enableWindTypes = true
+#Apply small per-particle turbulence.
+enableTurbulence = true
+#Keep smoke mostly vertical near its source, then increase wind influence with height.
+enableHeightEffect = true
+#Apply wind to Steam 'n' Rails smoke-like particles when the railways mod is loaded.
+enableSteamNRailsCompat = true
+#Apply local Mechanical Fan airflow when Create is loaded.
+enableCreateFanCompat = true
+#Apply local propeller airflow to smoke when Create: Aeronautics is loaded.
+enableAeronauticsCompat = true
+#Relative chance for this wind state.
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+calmWindChance = 0.4
+#Relative chance for this wind state.
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+normalWindChance = 0.25
+#Relative chance for this wind state.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+strongWindChance = 0.1
+#Relative chance for this wind state.
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+gustChance = 0.05
+#Height above the particle spawn point where wind starts affecting smoke.
+# Default: 0.5
+# Range: 0.0 ~ 32.0
+smokeStartHeight = 0.5
+#Height above the particle spawn point where wind reaches full strength.
+# Default: 10.0
+# Range: 0.1 ~ 64.0
+smokeFullHeight = 10.0
+#Maximum Mechanical Fan influence range in blocks.
+# Default: 20.0
+# Range: 1.0 ~ 64.0
+createFanRange = 20.0
+#Maximum Aeronautics propeller influence range in blocks.
+# Default: 12.0
+# Range: 1.0 ~ 64.0
+aeronauticsPropellerRange = 12.0
+#Global multiplier for weather wind strength.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+baseWindStrength = 1.0
+#Additional multiplier used during thunderstorms.
+# Default: 2.0
+# Range: 0.0 ~ 8.0
+stormMultiplier = 2.0
+#Global multiplier for Aeronautics propeller airflow.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+propellerMultiplier = 1.0

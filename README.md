@@ -7,7 +7,7 @@ Modpack privado de **NeoForge 1.21.1** para un servidor de Minecraft entre amigo
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.248 |
 | Mods | Gestionados por packwiz (casi todos desde Modrinth, unos pocos desde CurseForge) + 4 parches propios (jars locales) |
-| Configs | 246 archivos en `config/` |
+| Configs | 310 archivos en `config/` |
 
 ## Cómo funciona
 
@@ -46,11 +46,12 @@ El primer arranque tarda más porque descarga todo. Si el pre-lanzamiento falla 
 |---|---|
 | Mods | Sí, según su `side` |
 | Configs de gameplay (`config/`) | Sí: el servidor es la fuente de verdad y el pack sobrescribe en cada cliente |
-| Configs de cliente (`*-client.*`, Sodium, Iris, JEI, Distant Horizons...) | No: cada jugador conserva la suya |
+| Configs de cliente que no afectan al rendimiento (`*-client.*` de Create, Mekanism, AE2, Sound Physics, partículas, etc.) | Sí: el pack las sobrescribe en cada cliente |
+| Configs de rendimiento o personales (Sodium, Iris, Distant Horizons, Entity Culling, ETF/EMF, FerriteCore, JEI, spark, `neoforge-client.toml`, atajos de teclado, rutas locales) | No: cada jugador conserva la suya |
 | `options.txt`, shaders, resource packs | No |
 | `server.properties`, `world/`, configs de servidor del mundo | No: se editan solo en el servidor |
 
-Los gráficos y la configuración de Distant Horizons de cada jugador **nunca se tocan**. Los límites de render y simulación los marca el servidor en su `server.properties`.
+Los gráficos y la configuración de Distant Horizons de cada jugador **nunca se tocan**. Las configs de cliente que sí se distribuyen se sobrescriben en cada arranque, así que un jugador no puede cambiarlas de forma permanente. Los límites de render y simulación los marca el servidor en su `server.properties`.
 
 La lista exacta de exclusiones está en `.packwizignore`.
 
@@ -119,7 +120,7 @@ Qué suele excluirse:
 | Tipo | Ejemplos |
 |---|---|
 | Documentación y notas del repo | `docs/`, `README.md`, `CHANGELOG.md` |
-| Configs de cliente o personales | `*-client.*`, Distant Horizons, Sodium, Iris, JEI, `options.txt` |
+| Configs de rendimiento o personales | Distant Horizons, Sodium, Iris, Entity Culling, ETF/EMF, JEI, `neoforge-client.toml`, `options.txt` |
 | Datos del servidor | `server.properties`, `world/`, `defaultconfigs/`, `whitelist.json`, `ops.json` |
 | Bases de datos, logs y temporales | `*.db`, `*.log`, `*.bak`, `*.tmp`, `spark/` |
 | Datos de infraestructura o personales | IDs de AWS, dominio, tokens, contraseñas, nombres de jugadores |
