@@ -2079,6 +2079,11 @@ hash = "c52d301113b18e73078aac2d8fce44abe8106c7b686daaa8f3a39acf9b3836c1"
 metafile = true
 
 [[files]]
+file = "mods/wandyt-controller.pw.toml"
+hash = "1096aafdb7c55e5e9bd50f744858e099dcbe76d825c84cdfd126e01a5e38b5f4"
+metafile = true
+
+[[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
 hash = "74d696169d84d7893843d322cb8062415e2903603da43128ea665205ff27482f"
 metafile = true

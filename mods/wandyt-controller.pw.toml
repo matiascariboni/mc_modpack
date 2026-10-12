@@ -1,0 +1,13 @@
+name = "WandyT Controller!"
+filename = "wandytcontroller-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70e91102e5af58f2b1fb6a95675f2db176395e54"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7999625
+project-id = 1526710

@@ -6,7 +6,7 @@ Modpack privado de **NeoForge 1.21.1** para un servidor de Minecraft entre amigo
 |---|---|
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.248 |
-| Mods | Gestionados por packwiz (casi todos desde Modrinth, unos pocos desde CurseForge) + 4 parches propios (jars locales) |
+| Mods | Gestionados por packwiz (siempre que se pueda desde Modrinth; CurseForge solo si el mod no existe allí) + 4 parches propios (jars locales) |
 | Configs | 310 archivos en `config/` |
 
 ## Cómo funciona
@@ -66,7 +66,7 @@ La lista exacta de exclusiones está en `.packwizignore`.
 
 Trabaja siempre desde la carpeta local del modpack (fuera de Google Drive) y con el ejecutable de packwiz.
 
-    packwiz modrinth add <mod>        # o: packwiz curseforge add <mod>
+    packwiz modrinth add <mod>        # CurseForge solo si no está en Modrinth: packwiz curseforge add <mod>
     packwiz update --all              # actualiza todos los mods
     packwiz refresh                   # obligatorio tras tocar cualquier archivo a mano
     git add .
@@ -102,7 +102,7 @@ Al copiar, aplica estas reglas:
 
 ## Mods de CurseForge con descarga restringida
 
-Algunos autores bloquean en CurseForge la descarga por terceros. Si hay alguno en el pack, el instalador falla con `This mod is excluded from the CurseForge API and must be downloaded manually` y el servidor no arranca. Por eso **se prefiere Modrinth**:
+Algunos autores bloquean en CurseForge la descarga por terceros. Si hay alguno en el pack, el instalador falla con `This mod is excluded from the CurseForge API and must be downloaded manually` y el servidor no arranca. Por eso **siempre preferimos las descargas de Modrinth**. Solo se usa CurseForge si el mod no existe en Modrinth (busca por nombre y por hash antes de rendirte) y, en ese caso, comprueba que el servidor lo descarga bien:
 
 - Para añadir mods usa `packwiz modrinth add`.
 - Para migrar uno existente: `packwiz remove <slug>` y luego `packwiz modrinth add <nombre>`. Modrinth localiza el mismo archivo por su hash SHA1 (`https://api.modrinth.com/v2/version_file/<sha1>?algorithm=sha1`).

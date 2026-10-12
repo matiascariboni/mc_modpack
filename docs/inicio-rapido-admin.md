@@ -20,7 +20,7 @@ Todas se hacen desde la carpeta del repo.
     .\packwiz.exe modrinth add <nombre-o-url>
     .\packwiz.exe curseforge add <nombre-o-url>
 
-1. Prefiere Modrinth (`modrinth add`): algunos autores bloquean en CurseForge la descarga por terceros y el servidor no arrancaría. Acepta las dependencias, salvo que ya estén en el pack con otro origen; en ese caso comprueba que la versión instalada cumple el mínimo que pide el mod.
+1. Usa siempre Modrinth (`modrinth add`) y deja `curseforge add` solo para mods que no existen allí: algunos autores bloquean en CurseForge la descarga por terceros y el servidor no arrancaría. Acepta las dependencias, salvo que ya estén en el pack con otro origen; en ese caso comprueba que la versión instalada cumple el mínimo que pide el mod.
 2. Abre `mods\<mod>.pw.toml` y revisa la línea `side`: `client`, `server` o `both`. Corrígela si es un mod solo de cliente o solo de servidor.
 3. Publica (ver "Publicar un cambio"), lanza una instancia de cliente para que el mod genere sus configs y usa esos archivos como base para configurarlo. Procedimiento completo en la sección "Instalar un mod nuevo" del README.
 

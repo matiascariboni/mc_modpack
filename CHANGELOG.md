@@ -6,12 +6,14 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Añadido
 
+- WandyT Controller 1.0.0 (CurseForge, `both`). Permite espaciar las apariciones del comerciante errante (días entre spawns, distancia, permanencia y llamas). No existe en Modrinth, por eso es de CurseForge. Pendiente: ajustar su config tras el primer arranque.
 - `defaultconfigs/` con las 4 configs de Open Parties and Claims que usa el servidor en `world/serverconfig/` (versión 16, protección por defecto de claims activada). Antes el servidor tenía copias obsoletas (versión 15, sin protección) y los mundos locales nuevos nacían sin proteger. Solo afecta a mundos nuevos; los existentes usan `saves/<mundo>/serverconfig/`.
 - Attack Through Grass 2.0.3 (Modrinth, solo cliente). Permite golpear a un mob aunque haya hierba, flores u otras plantas en su mismo bloque, en vez de romper la planta.
 - Better Days 3.3.6.3 (Modrinth). Es el mod que aplica la velocidad del tiempo que calcula Serene Seasons Plus; sin él, `changeDayNightLengthsWithSeasons` no tenía efecto. Config en `config/betterdays-common.toml`: `clearWeatherOnWake = false` y `allowDaySleep = false`.
 
 ### Documentación
 
+- Se explicita que siempre se prefieren las descargas de Modrinth y que CurseForge solo se usa si el mod no existe allí (README y guía del administrador).
 - Nuevo procedimiento "Instalar un mod nuevo" en el README: instalar, push, lanzar una instancia, usar los configs generados por el mod como base y volver a publicar. La guía del administrador lo enlaza.
 
 ### Cambiado
