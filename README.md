@@ -46,6 +46,7 @@ El primer arranque tarda más porque descarga todo. Si el pre-lanzamiento falla 
 |---|---|
 | Mods | Sí, según su `side` |
 | Configs de gameplay (`config/`) | Sí: el servidor es la fuente de verdad y el pack sobrescribe en cada cliente |
+| `defaultconfigs/` (claims de Open Parties and Claims, copiados de `world/serverconfig/` del servidor) | Sí: los mundos locales **nuevos** nacen con la misma protección que el servidor. Los mundos ya creados usan `saves/<mundo>/serverconfig/` y hay que copiarlos a mano |
 | Configs de cliente que no afectan al rendimiento (`*-client.*` de Create, Mekanism, AE2, Sound Physics, partículas, etc.) | Sí: el pack las sobrescribe en cada cliente |
 | Configs de rendimiento o personales (Sodium, Iris, Distant Horizons, Entity Culling, ETF/EMF, FerriteCore, JEI, spark, `neoforge-client.toml`, atajos de teclado, rutas locales) | No: cada jugador conserva la suya |
 | `options.txt`, shaders, resource packs | No |
@@ -137,7 +138,7 @@ Qué suele excluirse:
 |---|---|
 | Documentación y notas del repo | `docs/`, `README.md`, `CHANGELOG.md` |
 | Configs de rendimiento o personales | Distant Horizons, Sodium, Iris, Entity Culling, ETF/EMF, JEI, `neoforge-client.toml`, `options.txt` |
-| Datos del servidor | `server.properties`, `world/`, `defaultconfigs/`, `whitelist.json`, `ops.json` |
+| Datos del servidor | `server.properties`, `world/`, `whitelist.json`, `ops.json` |
 | Bases de datos, logs y temporales | `*.db`, `*.log`, `*.bak`, `*.tmp`, `spark/` |
 | Datos de infraestructura o personales | IDs de AWS, dominio, tokens, contraseñas, nombres de jugadores |
 

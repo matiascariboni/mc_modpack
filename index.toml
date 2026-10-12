@@ -1241,6 +1241,22 @@ file = "config/yungscavebiomes-neoforge-1_21_1.toml"
 hash = "022f771e899ae3a0953a172e36e2b4c6bea556a4a8e467b0849eac101b943dda"
 
 [[files]]
+file = "defaultconfigs/openpartiesandclaims-default-player-config.toml"
+hash = "96b190025601e881702d1ba2811ce31c87837dce6e2326e1ae138c737dcfefba"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-expired-claim-config.toml"
+hash = "42131d3ce068e68bb68f8afe2dba2fe618b7bd2d754d59813f2cc5ac75d60057"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-server-claim-config.toml"
+hash = "42131d3ce068e68bb68f8afe2dba2fe618b7bd2d754d59813f2cc5ac75d60057"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-wilderness-config.toml"
+hash = "1541f8fbf008ae95e51234c6f162280d49abbeceb9dd99185c70208f61a9bed8"
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "487344fb90cd5c294e8b6e8922ce7cfd436d78b1b8880b5029046aa419d5d277"
 metafile = true
