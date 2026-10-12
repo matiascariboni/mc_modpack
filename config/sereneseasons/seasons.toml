@@ -101,34 +101,14 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 12.5
+	melt_percent = 50.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Early Spring = rain increasing as winter's dry high pressure breaks down
 	# Original default value: max_rain_time = 96000
 	max_rain_time = 84000
 	min_rain_time = 12000
 	season = "EARLY_SPRING"
-	melt_rolls = 1
-	max_thunder_time = 180000
-	biome_temp_adjustment = -0.25
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 50.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Early Summer = tail end of the annual wet peak (convective storm season, real-world June)
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 48000
-	min_rain_time = 12000
-	season = "EARLY_SUMMER"
-	melt_rolls = 1
+	melt_rolls = 3
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
@@ -141,14 +121,34 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 50.0
+	melt_percent = 100.0
+	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
+	# Early Summer = tail end of the annual wet peak (convective storm season, real-world June)
+	# Original default value: max_rain_time = 96000
+	max_rain_time = 48000
+	min_rain_time = 12000
+	season = "EARLY_SUMMER"
+	melt_rolls = 4
+	max_thunder_time = 180000
+	biome_temp_adjustment = 0.0
+	min_thunder_time = 12000
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+[[season_properties]]
+	melt_percent = 100.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Late Summer = "dog days" dry spell as high-pressure ridges dominate (real-world August)
 	# Original default value: max_rain_time = 96000
 	max_rain_time = 108000
 	min_rain_time = 12000
 	season = "LATE_SUMMER"
-	melt_rolls = 1
+	melt_rolls = 4
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
@@ -181,14 +181,14 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 16.66
+	melt_percent = 100.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Mid Spring = classic "April showers", frequency rising sharply toward the annual peak
 	# Original default value: max_rain_time = 96000
 	max_rain_time = 60000
 	min_rain_time = 12000
 	season = "MID_SPRING"
-	melt_rolls = 1
+	melt_rolls = 4
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
@@ -201,14 +201,14 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 50.0
+	melt_percent = 100.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Mid Summer = frequency declining from the spring/early-summer peak as high pressure builds (real-world July)
 	# Original default value: max_rain_time = 96000
 	max_rain_time = 72000
 	min_rain_time = 12000
 	season = "MID_SUMMER"
-	melt_rolls = 1
+	melt_rolls = 4
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
@@ -261,14 +261,14 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 25.0
+	melt_percent = 100.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Late Spring = annual wet peak (real-world May, thunderstorm season begins)
 	# Original default value: max_rain_time = 96000
 	max_rain_time = 48000
 	min_rain_time = 12000
 	season = "LATE_SPRING"
-	melt_rolls = 1
+	melt_rolls = 4
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
