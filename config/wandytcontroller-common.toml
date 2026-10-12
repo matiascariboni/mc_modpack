@@ -1,0 +1,19 @@
+[wandyt_controller]
+	#Master switch. If false, Wandering Traders will not spawn from this mod. If vanilla blocking is enabled, vanilla traders are blocked too.
+	enableTraderSpawning = true
+	#If true, vanilla Wandering Trader spawns are blocked so only WandyT Controller controls trader spawning.
+	disableVanillaTraderSpawning = true
+	#How often the Wandering Trader should spawn, in Minecraft days. 1 = every day, 2 = every 2 days, etc.
+	# Default: 2
+	# Range: 1 ~ 30
+	spawnIntervalDays = 5
+	#How far from the chosen player the trader can spawn.
+	# Default: 24
+	# Range: 4 ~ 128
+	spawnRadius = 48
+	#How long before the trader despawns. 48000 ticks = 2 Minecraft days.
+	# Default: 48000
+	# Range: 1200 ~ 240000
+	despawnDelayTicks = 24000
+	#Should the trader spawn with trader llamas?
+	spawnLlamas = true

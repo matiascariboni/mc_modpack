@@ -1209,6 +1209,10 @@ file = "config/vinery.toml"
 hash = "19912990f7f94b54ea5e3acd3eecb20e43f4005a13d1dbe929da5976b91e30b7"
 
 [[files]]
+file = "config/wandytcontroller-common.toml"
+hash = "3ad60e4c4c7f4bf1b0150e46f1fce8d6a37511fa173b2c3a5d005ae835bb2e8d"
+
+[[files]]
 file = "config/waves-common.toml"
 hash = "13b090f3aab7bebd5136e47571699c0d066505e3c724bfa0de667f69b3b33401"
 
