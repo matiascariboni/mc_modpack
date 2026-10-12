@@ -2,6 +2,16 @@
 
 Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Sin publicar]
+
+### Añadido
+
+- Better Days 3.3.6.3 (Modrinth). Es el mod que aplica la velocidad del tiempo que calcula Serene Seasons Plus; sin él, `changeDayNightLengthsWithSeasons` no tenía efecto. Config en `config/betterdays-common.toml`: `clearWeatherOnWake = false` y `allowDaySleep = false`.
+
+### Cambiado
+
+- Serene Seasons Plus: `keepFullDayNightCycleAtFixedLength = true` con `fullDayNightCycleLengthInRealMinutes = 20.0`. Todos los días duran 20 minutos reales y las estaciones solo cambian el reparto día/noche (de 33 % de luz en invierno a 67 % en verano, equivalente a unos 51° de latitud norte). Los 24 multiplicadores por subestación están calculados para las ventanas de Better Days (día 13000 ticks, noche 11000), por eso no se deben cambiar `dayStart` ni `nightStart`.
+
 ## [1.0.1] - 2026-10-11
 
 ### Añadido

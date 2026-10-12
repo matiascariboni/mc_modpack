@@ -497,6 +497,10 @@ file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
 hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
 
 [[files]]
+file = "config/betterdays-common.toml"
+hash = "b3451ce3b0a06ac177244df9f70d4548493839756ca78821eeb6ac2cf6b567c8"
+
+[[files]]
 file = "config/betterdeserttemples-neoforge-1_21.toml"
 hash = "c7355a13f2f7c4eeb3332ab67a2315e0662c7e5b434dc33d4624fccb9e815240"
 
@@ -906,7 +910,7 @@ hash = "ff71dab8f588bc5684fc8ac8fde3bcb54758324fb28745ec877c1ffbf0d8746e"
 
 [[files]]
 file = "config/sereneseasonsplus-common.toml"
-hash = "1d742bb533397cfa56aa5f5578f0c00191ec741b4e780ace6b17a0c7cda174d3"
+hash = "a3d191d35e148ff8ed20b2b4294df01228f542b31e324b4468965b26c3633297"
 
 [[files]]
 file = "config/simpledivegear-common.toml"
@@ -1051,6 +1055,11 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "737828afd79fae8bc2cf535ae48cca409dc4a86b93312ad0c88e4fd8009fe8c2"
+metafile = true
+
+[[files]]
+file = "mods/betterdays.pw.toml"
+hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
 metafile = true
 
 [[files]]

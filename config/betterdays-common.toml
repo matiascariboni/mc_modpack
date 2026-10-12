@@ -1,0 +1,47 @@
+[time]
+	#La velocidad del dia y la noche la fija Serene Seasons Plus cada subestacion (ver sereneseasonsplus-common.toml).
+	#Los valores de daySpeed y nightSpeed de aqui no se usan mientras ese mod este activo.
+	#Day is defined as any time between dayStart (see below) and nightStart (see below) the next day.
+	#Range: 0.0 ~ 24000.0
+	daySpeed = 1.0
+	#Range: 0.0 ~ 24000.0
+	nightSpeed = 1.0
+	#NO CAMBIAR dayStart ni nightStart: los multiplicadores de Serene Seasons Plus estan calculados para estas ventanas (dia 13000 ticks, noche 11000).
+	#Range: 22300.0 ~ 24000.0
+	dayStart = 23500.0
+	#Range: 12000.0 ~ 13000.0
+	nightStart = 12500.0
+	enableInterpolatedTime = false
+	#Range: 0.0 ~ 10.0
+	interpolatedTimeSmoothingFactor = 0.25
+	interpolatedTimeList = ["0,1.0", "24000,1.0"]
+
+	[time.effects]
+		#Allowed Values: NEVER, ALWAYS, SLEEPING
+		blockEntityEffect = "NEVER"
+		#Allowed Values: NEVER, ALWAYS, SLEEPING
+		potionEffect = "NEVER"
+		#Range: > 0
+		baseRandomTickSpeed = 3
+		#Allowed Values: NEVER, ALWAYS, SLEEPING
+		hungerEffect = "NEVER"
+		#Allowed Values: NEVER, ALWAYS, SLEEPING
+		weatherEffect = "SLEEPING"
+		#Allowed Values: NEVER, ALWAYS, SLEEPING
+		randomTickEffect = "NEVER"
+
+[sleep]
+	#Range: 0.0 ~ 1.0
+	sleepSpeedCurve = 0.3
+	#Range: 0.0 ~ 24000.0
+	sleepSpeedMax = 110.0
+	#Con true se puede dormir a cualquier hora; se deja en false para no adelantar estaciones y cultivos de dia.
+	allowDaySleep = false
+	#Range: -1.0 ~ 24000.0
+	sleepSpeedAll = -1.0
+	#Range: 0.0 ~ 24000.0
+	sleepSpeedMin = 1.0
+	enableSleepFeature = true
+	displayBedClock = true
+	#false para que no se borre la lluvia al despertar y se respete la curva de lluvia de Serene Seasons.
+	clearWeatherOnWake = false

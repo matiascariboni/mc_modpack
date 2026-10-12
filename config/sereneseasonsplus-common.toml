@@ -36,7 +36,7 @@
 	#Allow Serene Seasons Plus to control Better Days day and night speed values. Disable this if Better Days or another mod should control time speed by itself.
 	allowSeasonalControlOfBetterDaysTimeSpeed = true
 	#Keep one complete day and night at a fixed total elapsed length while seasons change the daylight/night split. When false, the original seasonal speed behavior is preserved. This does not sync to the computer clock.
-	keepFullDayNightCycleAtFixedLength = false
+	keepFullDayNightCycleAtFixedLength = true
 	#Total elapsed real-world minutes in one complete day and night when keepFullDayNightCycleAtFixedLength is enabled. Set to 1440 for 24 hours. This controls duration only and does not sync to the computer clock.
 	# Default: 20.0
 	# Range: 0.1 ~ 10080.0
@@ -62,96 +62,96 @@
 		#Daytime speed multiplier during early spring. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.09
 		# Range: 0.05 ~ 100.0
-		earlySpringDaySpeedMultiplier = 1.09
+		earlySpringDaySpeedMultiplier = 0.993
 		#Nighttime speed multiplier during early spring. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.92
 		# Range: 0.05 ~ 100.0
-		earlySpringNightSpeedMultiplier = 0.92
+		earlySpringNightSpeedMultiplier = 1.008
 		#Daytime speed multiplier during mid spring. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 0.87
 		# Range: 0.05 ~ 100.0
-		midSpringDaySpeedMultiplier = 0.87
+		midSpringDaySpeedMultiplier = 0.868
 		#Nighttime speed multiplier during mid spring. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 1.11
 		# Range: 0.05 ~ 100.0
-		midSpringNightSpeedMultiplier = 1.11
+		midSpringNightSpeedMultiplier = 1.218
 		#Daytime speed multiplier during late spring. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 0.67
 		# Range: 0.05 ~ 100.0
-		lateSpringDaySpeedMultiplier = 0.67
+		lateSpringDaySpeedMultiplier = 0.81
 		#Nighttime speed multiplier during late spring. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 1.28
 		# Range: 0.05 ~ 100.0
-		lateSpringNightSpeedMultiplier = 1.28
+		lateSpringNightSpeedMultiplier = 1.385
 		#Daytime speed multiplier during early summer. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 0.59
 		# Range: 0.05 ~ 100.0
-		earlySummerDaySpeedMultiplier = 0.59
+		earlySummerDaySpeedMultiplier = 0.81
 		#Nighttime speed multiplier during early summer. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 1.35
 		# Range: 0.05 ~ 100.0
-		earlySummerNightSpeedMultiplier = 1.35
+		earlySummerNightSpeedMultiplier = 1.385
 		#Daytime speed multiplier during mid summer. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 0.67
 		# Range: 0.05 ~ 100.0
-		midSummerDaySpeedMultiplier = 0.67
+		midSummerDaySpeedMultiplier = 0.868
 		#Nighttime speed multiplier during mid summer. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 1.28
 		# Range: 0.05 ~ 100.0
-		midSummerNightSpeedMultiplier = 1.28
+		midSummerNightSpeedMultiplier = 1.218
 		#Daytime speed multiplier during late summer. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 0.86
 		# Range: 0.05 ~ 100.0
-		lateSummerDaySpeedMultiplier = 0.86
+		lateSummerDaySpeedMultiplier = 0.993
 		#Nighttime speed multiplier during late summer. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 1.12
 		# Range: 0.05 ~ 100.0
-		lateSummerNightSpeedMultiplier = 1.12
+		lateSummerNightSpeedMultiplier = 1.008
 		#Daytime speed multiplier during early autumn. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.09
 		# Range: 0.05 ~ 100.0
-		earlyAutumnDaySpeedMultiplier = 1.09
+		earlyAutumnDaySpeedMultiplier = 1.191
 		#Nighttime speed multiplier during early autumn. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.92
 		# Range: 0.05 ~ 100.0
-		earlyAutumnNightSpeedMultiplier = 0.92
+		earlyAutumnNightSpeedMultiplier = 0.841
 		#Daytime speed multiplier during mid autumn. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.28
 		# Range: 0.05 ~ 100.0
-		midAutumnDaySpeedMultiplier = 1.28
+		midAutumnDaySpeedMultiplier = 1.44
 		#Nighttime speed multiplier during mid autumn. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.77
 		# Range: 0.05 ~ 100.0
-		midAutumnNightSpeedMultiplier = 0.77
+		midAutumnNightSpeedMultiplier = 0.735
 		#Daytime speed multiplier during late autumn. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.47
 		# Range: 0.05 ~ 100.0
-		lateAutumnDaySpeedMultiplier = 1.47
+		lateAutumnDaySpeedMultiplier = 1.637
 		#Nighttime speed multiplier during late autumn. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.6
 		# Range: 0.05 ~ 100.0
-		lateAutumnNightSpeedMultiplier = 0.6
+		lateAutumnNightSpeedMultiplier = 0.685
 		#Daytime speed multiplier during early winter. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.55
 		# Range: 0.05 ~ 100.0
-		earlyWinterDaySpeedMultiplier = 1.55
+		earlyWinterDaySpeedMultiplier = 1.637
 		#Nighttime speed multiplier during early winter. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.54
 		# Range: 0.05 ~ 100.0
-		earlyWinterNightSpeedMultiplier = 0.54
+		earlyWinterNightSpeedMultiplier = 0.685
 		#Daytime speed multiplier during mid winter. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.45
 		# Range: 0.05 ~ 100.0
-		midWinterDaySpeedMultiplier = 1.45
+		midWinterDaySpeedMultiplier = 1.44
 		#Nighttime speed multiplier during mid winter. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.62
 		# Range: 0.05 ~ 100.0
-		midWinterNightSpeedMultiplier = 0.62
+		midWinterNightSpeedMultiplier = 0.735
 		#Daytime speed multiplier during late winter. Values below 1 make daytime longer; values above 1 make it shorter.
 		# Default: 1.26
 		# Range: 0.05 ~ 100.0
-		lateWinterDaySpeedMultiplier = 1.26
+		lateWinterDaySpeedMultiplier = 1.191
 		#Nighttime speed multiplier during late winter. Values below 1 make nighttime longer; values above 1 make it shorter.
 		# Default: 0.78
 		# Range: 0.05 ~ 100.0
-		lateWinterNightSpeedMultiplier = 0.78
+		lateWinterNightSpeedMultiplier = 0.841
