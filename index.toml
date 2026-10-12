@@ -822,7 +822,7 @@ hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c12074d847a8ee8e5c661b05c964b395db5324b3f6abb3bfc852975060c3f209"
+hash = "11420b831e567e5f4eeb8db4545eb10307c27eaa2237c56a51287ba195e7435a"
 
 [[files]]
 file = "config/farm_and_charm-common.toml"
@@ -1002,7 +1002,7 @@ hash = "c983eba1c6e9c9b2962227fa21cbe4e0f069e10b4efdd544415c6f033b9e6aa1"
 
 [[files]]
 file = "config/pipesnphysics-server.toml"
-hash = "6dffa507cb3cd774b86b0b7289aeb9c0795a1ae9f3b62c326215c66bf0cdc2a7"
+hash = "424423287f4bd58d56424a37b1b34788613dea2942ea5d0e6b6d2079b73ff9ac"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -1074,7 +1074,7 @@ hash = "58cbdcfa94060c9d741b7e783dd1af8167fc3bd42e31d1ee6997e86a4671265d"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "6db38d9ca68b3947dd401a53fc978c145d7f32de9f68db4fdffe59c75382ba09"
+hash = "0c935b529c594b82453ae6c43cb472dae8d89029f5de5fb79b5418554d9f4545"
 
 [[files]]
 file = "config/sereneseasonsplus-common.toml"

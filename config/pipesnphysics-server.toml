@@ -52,6 +52,22 @@
 		#pipe-scan cache. Turn off only to rule caching out while debugging odd network
 		#behavior.
 		enableNetworkCache = true
+		#Drive pumps from OTHER mods with the hydraulic engine — an electric pump, a
+		#centrifugal one, anything that pumps through Create's pipes. Such a pump states
+		#how hard it pushes as pipe PRESSURE (the currency Create's own transport runs on,
+		#and the same scale as a Mechanical Pump's RPM), so the engine reads that and gives
+		#it head and throughput like any pump. A pump that extends Create's own is always
+		#recognized; anything else has to be named by the block tag pipesnphysics:pumps or
+		#registered through the mod's API. Off = they act as plain pipe again (fluid passes
+		#through them, but they add no head).
+		enableForeignPumps = true
+		#Scales how strong another mod's pump is, on top of the pressure it publishes.
+		#1.0 keeps whatever that mod intended relative to a Mechanical Pump — a pump that
+		#pushes twice Create's pressure lifts twice as high here. Lower it to rein in an
+		#addon pump that dwarfs the rest of your plumbing.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		foreignPumpStrengthScale = 1.0
 
 	#The numeric tuning of the hydraulics — how fast, how much, and how high
 	#fluid moves. These set the feel of every network.
@@ -125,6 +141,16 @@
 		# Default: 1000
 		# Range: 0 ~ 100000
 		moltenTemperatureKelvin = 1000
+		#Let one pipe network carry MORE THAN ONE fluid instead of breaking.
+		#Off (Create's own rule): two fluids driven or pressed together destroy the
+		#pipe block, and water + lava leave cobblestone. On: they simply stop where
+		#they meet, so a run may stand full of one fluid at one end and another at the
+		#other, and a tank of the wrong fluid beside a full pipe does nothing.
+		#This does NOT mix them: a pipe block still holds one fluid at a time, and a
+		#run still carries one fluid at a time, so the second waits its turn behind the
+		#first like batches in a real multi-product pipeline. What changes is that
+		#sharing plumbing stops being destructive.
+		allowMixedPipeFluids = false
 
 	#The Mechanical Pump run BACKWARDS: dial a pump to TURBINE and fluid
 	#falling through it turns it into a Create generator instead of a

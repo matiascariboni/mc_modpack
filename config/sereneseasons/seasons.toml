@@ -40,158 +40,25 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	melt_percent = 0.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Late Winter = driest point of the year (cold, dry high-pressure systems dominate)
-	# Original default value: max_rain_time = 36000
-	max_rain_time = 96000
-	min_rain_time = 12000
-	season = "LATE_WINTER"
-	melt_rolls = 0
-	max_thunder_time = -1
-	biome_temp_adjustment = -0.8
-	min_thunder_time = -1
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 0.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Early Winter = frequent frontal storm systems as the season begins
-	# Original default value: max_rain_time = 36000
-	max_rain_time = 60000
-	min_rain_time = 12000
-	season = "EARLY_WINTER"
-	melt_rolls = 0
-	max_thunder_time = -1
-	biome_temp_adjustment = -0.8
-	min_thunder_time = -1
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 0.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Mid Winter = deep cold reduces frequency versus early winter, transitioning toward the Late Winter minimum
-	# Original default value: max_rain_time = 36000
-	max_rain_time = 72000
-	min_rain_time = 12000
-	season = "MID_WINTER"
-	melt_rolls = 0
-	max_thunder_time = -1
-	biome_temp_adjustment = -0.8
-	min_thunder_time = -1
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 35.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Early Spring = rain increasing as winter's dry high pressure breaks down
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 84000
-	min_rain_time = 12000
-	season = "EARLY_SPRING"
-	melt_rolls = 3
-	max_thunder_time = 180000
-	biome_temp_adjustment = 0.0
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 100.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Early Summer = tail end of the annual wet peak (convective storm season, real-world June)
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 48000
-	min_rain_time = 12000
-	season = "EARLY_SUMMER"
-	melt_rolls = 4
-	max_thunder_time = 180000
-	biome_temp_adjustment = 0.0
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 100.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Late Summer = "dog days" dry spell as high-pressure ridges dominate (real-world August)
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 108000
-	min_rain_time = 12000
-	season = "LATE_SUMMER"
-	melt_rolls = 4
-	max_thunder_time = 180000
-	biome_temp_adjustment = 0.0
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 12.5
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Late Autumn = storm season fully returns, transitioning toward Early Winter's frequency
-	# Original default value: max_rain_time = 180000
-	max_rain_time = 84000
-	min_rain_time = 12000
-	season = "LATE_AUTUMN"
-	melt_rolls = 1
-	max_thunder_time = 180000
-	biome_temp_adjustment = -0.25
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 100.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Mid Spring = classic "April showers", frequency rising sharply toward the annual peak
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 60000
-	min_rain_time = 12000
 	season = "MID_SPRING"
+	melt_percent = 100.0
 	melt_rolls = 3
-	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 60000
 	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x678297
+	grass_saturation = -1.0
+	foliage_colour = 0x4F86AF
+	foliage_saturation = -1.0
+	birch_color = 0x6EB283
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -200,58 +67,25 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	melt_percent = 100.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Mid Summer = frequency declining from the spring/early-summer peak as high pressure builds (real-world July)
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 72000
-	min_rain_time = 12000
-	season = "MID_SUMMER"
-	melt_rolls = 4
-	max_thunder_time = 180000
-	biome_temp_adjustment = 0.0
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 25.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Early Autumn = annual dry-spell minimum ("Indian summer" transitional dry period, real-world September)
-	# Original default value: max_rain_time = 180000
-	max_rain_time = 132000
-	min_rain_time = 12000
-	season = "EARLY_AUTUMN"
-	melt_rolls = 1
-	max_thunder_time = 180000
-	biome_temp_adjustment = 0.0
-	min_thunder_time = 12000
-#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
-#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
-#melt_rolls should be 0 if blocks should not melt in that season.
-#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
-#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
-#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
-#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-[[season_properties]]
-	melt_percent = 16.66
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Mid Autumn = slight rebound as first frontal storm systems return (real-world October)
-	# Original default value: max_rain_time = 180000
-	max_rain_time = 120000
-	min_rain_time = 12000
 	season = "MID_AUTUMN"
+	melt_percent = 16.66
 	melt_rolls = 1
-	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 120000
 	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x9F5F5F
+	grass_saturation = -1.0
+	foliage_colour = 0xEF2121
+	foliage_saturation = -1.0
+	birch_color = 0xE2A231
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -260,15 +94,265 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
+	season = "EARLY_SUMMER"
 	melt_percent = 100.0
-	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
-	# Late Spring = annual wet peak (real-world May, thunderstorm season begins)
-	# Original default value: max_rain_time = 96000
-	max_rain_time = 48000
-	min_rain_time = 12000
-	season = "LATE_SPRING"
 	melt_rolls = 4
-	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 48000
 	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x778087
+	grass_saturation = -1.0
+	foliage_colour = 0x6F818F
+	foliage_saturation = -1.0
+	birch_color = 0x7AAA64
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "LATE_AUTUMN"
+	melt_percent = 12.5
+	melt_rolls = 1
+	biome_temp_adjustment = -0.25
+	min_rain_time = 12000
+	max_rain_time = 84000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0xAF4F4F
+	grass_saturation = 0.85
+	foliage_colour = 0xDB3030
+	foliage_saturation = 0.85
+	birch_color = 0xC98A35
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "LATE_SPRING"
+	melt_percent = 100.0
+	melt_rolls = 4
+	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 48000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x6F818F
+	grass_saturation = -1.0
+	foliage_colour = 0x5F849F
+	foliage_saturation = -1.0
+	birch_color = 0x74AE73
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "MID_SUMMER"
+	melt_percent = 100.0
+	melt_rolls = 4
+	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 72000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0xFFFFFF
+	grass_saturation = -1.0
+	foliage_colour = 0xFFFFFF
+	foliage_saturation = -1.0
+	birch_color = 0x80A755
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "MID_WINTER"
+	melt_percent = 0.0
+	melt_rolls = 0
+	biome_temp_adjustment = -0.8
+	min_rain_time = 12000
+	max_rain_time = 72000
+	min_thunder_time = -1
+	max_thunder_time = -1
+	grass_colour = 0xAF4F4F
+	grass_saturation = 0.45
+	foliage_colour = 0xDB3030
+	foliage_saturation = 0.45
+	birch_color = 0xA0824D
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "LATE_WINTER"
+	melt_percent = 0.0
+	melt_rolls = 0
+	biome_temp_adjustment = -0.8
+	min_rain_time = 12000
+	max_rain_time = 96000
+	min_thunder_time = -1
+	max_thunder_time = -1
+	grass_colour = 0x8E8181
+	grass_saturation = 0.6
+	foliage_colour = 0xA57070
+	foliage_saturation = 0.6
+	birch_color = 0x8F925F
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "EARLY_SPRING"
+	melt_percent = 35.0
+	melt_rolls = 3
+	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 84000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x778087
+	grass_saturation = 0.85
+	foliage_colour = 0x6F818F
+	foliage_saturation = 0.85
+	birch_color = 0x869A68
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "EARLY_AUTUMN"
+	melt_percent = 25.0
+	melt_rolls = 1
+	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 132000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x8F6F6F
+	grass_saturation = -1.0
+	foliage_colour = 0xC44040
+	foliage_saturation = -1.0
+	birch_color = 0xB1A442
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "EARLY_WINTER"
+	melt_percent = 0.0
+	melt_rolls = 0
+	biome_temp_adjustment = -0.8
+	min_rain_time = 12000
+	max_rain_time = 60000
+	min_thunder_time = -1
+	max_thunder_time = -1
+	grass_colour = 0xAF4F4F
+	grass_saturation = 0.6
+	foliage_colour = 0xDB3030
+	foliage_saturation = 0.6
+	birch_color = 0xB1723B
+#melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
+#melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
+#melt_rolls should be 0 if blocks should not melt in that season.
+#biome_temp_adjustment is the amount to adjust the biome temperature by from -10.0 to 10.0.
+#min_rain_time is the minimum time interval between rain events in ticks. Set to -1 to disable rain.
+#max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
+#min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
+#grass_colour is the color of grass in RGB, from 0x000000 to 0xFFFFFF.
+#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
+#foliage_colour is the color of foliage in RGB, from 0x000000 to 0xFFFFFF.
+#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
+#birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
+[[season_properties]]
+	season = "LATE_SUMMER"
+	melt_percent = 100.0
+	melt_rolls = 4
+	biome_temp_adjustment = 0.0
+	min_rain_time = 12000
+	max_rain_time = 108000
+	min_thunder_time = 12000
+	max_thunder_time = 180000
+	grass_colour = 0x877777
+	grass_saturation = -1.0
+	foliage_colour = 0x9F5F5F
+	foliage_saturation = -1.0
+	birch_color = 0x98A54B
