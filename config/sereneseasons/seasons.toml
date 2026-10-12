@@ -101,7 +101,7 @@
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
 [[season_properties]]
-	melt_percent = 50.0
+	melt_percent = 35.0
 	# --- Rain frequency adjusted: realistic seasonal curve (Sept 2026) ---
 	# Early Spring = rain increasing as winter's dry high pressure breaks down
 	# Original default value: max_rain_time = 96000
@@ -188,7 +188,7 @@
 	max_rain_time = 60000
 	min_rain_time = 12000
 	season = "MID_SPRING"
-	melt_rolls = 4
+	melt_rolls = 3
 	max_thunder_time = 180000
 	biome_temp_adjustment = 0.0
 	min_thunder_time = 12000
