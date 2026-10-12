@@ -525,8 +525,12 @@ file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
 hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
 
 [[files]]
+file = "config/betterdays-client.toml"
+hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
+
+[[files]]
 file = "config/betterdays-common.toml"
-hash = "b3451ce3b0a06ac177244df9f70d4548493839756ca78821eeb6ac2cf6b567c8"
+hash = "fc7157c11bae150744d106934266b98517c4f8fc97ae30af740882846b1e1c84"
 
 [[files]]
 file = "config/betterdeserttemples-neoforge-1_21.toml"
