@@ -821,10 +821,6 @@ file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
 [[files]]
-file = "config/fabric/indigo-renderer.properties"
-hash = "11420b831e567e5f4eeb8db4545eb10307c27eaa2237c56a51287ba195e7435a"
-
-[[files]]
 file = "config/farm_and_charm-common.toml"
 hash = "da28fa1644961041bdcf36405f79b7cd40eee9bd37af07fdc3cf39c1525dd040"
 
@@ -1074,7 +1070,7 @@ hash = "58cbdcfa94060c9d741b7e783dd1af8167fc3bd42e31d1ee6997e86a4671265d"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "0c935b529c594b82453ae6c43cb472dae8d89029f5de5fb79b5418554d9f4545"
+hash = "c31c5756011b8eb76fbbb090a693d93ae07268a6212a4ff796c57e341a090831"
 
 [[files]]
 file = "config/sereneseasonsplus-common.toml"

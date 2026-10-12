@@ -46,19 +46,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "MID_SPRING"
-	melt_percent = 100.0
-	melt_rolls = 3
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 60000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x678297
 	grass_saturation = -1.0
-	foliage_colour = 0x4F86AF
+	min_rain_time = 12000
+	grass_colour = 0x678297
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x6EB283
+	melt_percent = 100.0
+	max_rain_time = 60000
+	season = "MID_SPRING"
+	melt_rolls = 3
+	max_thunder_time = 180000
+	foliage_colour = 0x4F86AF
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -73,19 +73,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "MID_AUTUMN"
-	melt_percent = 16.66
-	melt_rolls = 1
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 120000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x9F5F5F
 	grass_saturation = -1.0
-	foliage_colour = 0xEF2121
+	min_rain_time = 12000
+	grass_colour = 0x9F5F5F
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0xE2A231
+	melt_percent = 16.66
+	max_rain_time = 120000
+	season = "MID_AUTUMN"
+	melt_rolls = 1
+	max_thunder_time = 180000
+	foliage_colour = 0xEF2121
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -100,19 +100,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "EARLY_SUMMER"
-	melt_percent = 100.0
-	melt_rolls = 4
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 48000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x778087
 	grass_saturation = -1.0
-	foliage_colour = 0x6F818F
+	min_rain_time = 12000
+	grass_colour = 0x778087
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x7AAA64
+	melt_percent = 100.0
+	max_rain_time = 48000
+	season = "EARLY_SUMMER"
+	melt_rolls = 4
+	max_thunder_time = 180000
+	foliage_colour = 0x6F818F
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -127,19 +127,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "LATE_AUTUMN"
-	melt_percent = 12.5
-	melt_rolls = 1
-	biome_temp_adjustment = -0.25
-	min_rain_time = 12000
-	max_rain_time = 84000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0xAF4F4F
 	grass_saturation = 0.85
-	foliage_colour = 0xDB3030
+	min_rain_time = 12000
+	grass_colour = 0xAF4F4F
+	biome_temp_adjustment = -0.25
 	foliage_saturation = 0.85
 	birch_color = 0xC98A35
+	melt_percent = 12.5
+	max_rain_time = 84000
+	season = "LATE_AUTUMN"
+	melt_rolls = 1
+	max_thunder_time = 180000
+	foliage_colour = 0xDB3030
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -154,19 +154,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "LATE_SPRING"
-	melt_percent = 100.0
-	melt_rolls = 4
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 48000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x6F818F
 	grass_saturation = -1.0
-	foliage_colour = 0x5F849F
+	min_rain_time = 12000
+	grass_colour = 0x6F818F
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x74AE73
+	melt_percent = 100.0
+	max_rain_time = 48000
+	season = "LATE_SPRING"
+	melt_rolls = 4
+	max_thunder_time = 180000
+	foliage_colour = 0x5F849F
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -181,19 +181,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "MID_SUMMER"
-	melt_percent = 100.0
-	melt_rolls = 4
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 72000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0xFFFFFF
 	grass_saturation = -1.0
-	foliage_colour = 0xFFFFFF
+	min_rain_time = 12000
+	grass_colour = 0xFFFFFF
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x80A755
+	melt_percent = 100.0
+	max_rain_time = 72000
+	season = "MID_SUMMER"
+	melt_rolls = 4
+	max_thunder_time = 180000
+	foliage_colour = 0xFFFFFF
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -208,19 +208,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "MID_WINTER"
-	melt_percent = 0.0
-	melt_rolls = 0
-	biome_temp_adjustment = -0.8
-	min_rain_time = 12000
-	max_rain_time = 72000
-	min_thunder_time = -1
-	max_thunder_time = -1
-	grass_colour = 0xAF4F4F
 	grass_saturation = 0.45
-	foliage_colour = 0xDB3030
+	min_rain_time = 12000
+	grass_colour = 0xAF4F4F
+	biome_temp_adjustment = -0.8
 	foliage_saturation = 0.45
 	birch_color = 0xA0824D
+	melt_percent = 0.0
+	max_rain_time = 72000
+	season = "MID_WINTER"
+	melt_rolls = 0
+	max_thunder_time = -1
+	foliage_colour = 0xDB3030
+	min_thunder_time = -1
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -235,19 +235,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "LATE_WINTER"
-	melt_percent = 0.0
-	melt_rolls = 0
-	biome_temp_adjustment = -0.8
-	min_rain_time = 12000
-	max_rain_time = 96000
-	min_thunder_time = -1
-	max_thunder_time = -1
-	grass_colour = 0x8E8181
 	grass_saturation = 0.6
-	foliage_colour = 0xA57070
+	min_rain_time = 12000
+	grass_colour = 0x8E8181
+	biome_temp_adjustment = -0.8
 	foliage_saturation = 0.6
 	birch_color = 0x8F925F
+	melt_percent = 0.0
+	max_rain_time = 96000
+	season = "LATE_WINTER"
+	melt_rolls = 0
+	max_thunder_time = -1
+	foliage_colour = 0xA57070
+	min_thunder_time = -1
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -262,19 +262,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "EARLY_SPRING"
-	melt_percent = 35.0
-	melt_rolls = 3
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 84000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x778087
 	grass_saturation = 0.85
-	foliage_colour = 0x6F818F
+	min_rain_time = 12000
+	grass_colour = 0x778087
+	biome_temp_adjustment = 0.0
 	foliage_saturation = 0.85
 	birch_color = 0x869A68
+	melt_percent = 35.0
+	max_rain_time = 84000
+	season = "EARLY_SPRING"
+	melt_rolls = 3
+	max_thunder_time = 180000
+	foliage_colour = 0x6F818F
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -289,19 +289,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "EARLY_AUTUMN"
-	melt_percent = 25.0
-	melt_rolls = 1
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 132000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x8F6F6F
 	grass_saturation = -1.0
-	foliage_colour = 0xC44040
+	min_rain_time = 12000
+	grass_colour = 0x8F6F6F
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0xB1A442
+	melt_percent = 25.0
+	max_rain_time = 132000
+	season = "EARLY_AUTUMN"
+	melt_rolls = 1
+	max_thunder_time = 180000
+	foliage_colour = 0xC44040
+	min_thunder_time = 12000
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -316,19 +316,19 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "EARLY_WINTER"
-	melt_percent = 0.0
-	melt_rolls = 0
-	biome_temp_adjustment = -0.8
-	min_rain_time = 12000
-	max_rain_time = 60000
-	min_thunder_time = -1
-	max_thunder_time = -1
-	grass_colour = 0xAF4F4F
 	grass_saturation = 0.6
-	foliage_colour = 0xDB3030
+	min_rain_time = 12000
+	grass_colour = 0xAF4F4F
+	biome_temp_adjustment = -0.8
 	foliage_saturation = 0.6
 	birch_color = 0xB1723B
+	melt_percent = 0.0
+	max_rain_time = 60000
+	season = "EARLY_WINTER"
+	melt_rolls = 0
+	max_thunder_time = -1
+	foliage_colour = 0xDB3030
+	min_thunder_time = -1
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)
 #melt_rolls should be 0 if blocks should not melt in that season.
@@ -343,16 +343,16 @@
 #foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
 #birch_color is the color of birch foliage in RGB, from 0x000000 to 0xFFFFFF. It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
-	season = "LATE_SUMMER"
-	melt_percent = 100.0
-	melt_rolls = 4
-	biome_temp_adjustment = 0.0
-	min_rain_time = 12000
-	max_rain_time = 108000
-	min_thunder_time = 12000
-	max_thunder_time = 180000
-	grass_colour = 0x877777
 	grass_saturation = -1.0
-	foliage_colour = 0x9F5F5F
+	min_rain_time = 12000
+	grass_colour = 0x877777
+	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x98A54B
+	melt_percent = 100.0
+	max_rain_time = 108000
+	season = "LATE_SUMMER"
+	melt_rolls = 4
+	max_thunder_time = 180000
+	foliage_colour = 0x9F5F5F
+	min_thunder_time = 12000

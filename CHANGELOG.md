@@ -14,6 +14,8 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Cambiado
 
+- `seasons.toml` queda con el orden de claves que escribe el mod y `fabric/indigo-renderer.properties` se excluye en `.packwizignore` (el mod reescribe su marca de fecha en cada arranque).
+
 - Configs sincronizadas con las que generan los mods: se comparó cada config del pack con la de la instancia de Prism (308 de 311 ya eran idénticas) y `sereneseasons/seasons.toml`, `pipesnphysics-server.toml` y `fabric/indigo-renderer.properties` usan ahora el formato del archivo generado por el mod, conservando los valores del pack. `seasons.toml` incluye ya `grass_colour`, `grass_saturation`, `foliage_*` y `birch_color`; `pipesnphysics-server.toml`, las opciones nuevas `enableForeignPumps`, `foreignPumpStrengthScale` y `allowMixedPipeFluids`.
 
 - Las configs de cliente que no afectan al rendimiento (61 archivos, de Create, Mekanism, AE2, Sound Physics, partículas, efectos visuales, etc.) ahora se distribuyen a los clientes. Se siguen excluyendo Sodium, Iris, Distant Horizons, Entity Culling, ETF/EMF, FerriteCore, JEI, spark, `neoforge-client.toml`, atajos de teclado y archivos con rutas locales. Se quitaron de `.packwizignore` `*-client.*`, `**/client.*` y Sound Physics.

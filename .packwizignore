@@ -30,3 +30,4 @@ CHANGELOG.md
 .gitignore
 .gitattributes
 docs/
+config/fabric/indigo-renderer.properties
