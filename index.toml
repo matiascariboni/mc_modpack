@@ -530,7 +530,7 @@ hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "fc7157c11bae150744d106934266b98517c4f8fc97ae30af740882846b1e1c84"
+hash = "0e2ef5dfd126b789fdac76ac11f3568f4ed6962c933f6b51e61528fe56201888"
 
 [[files]]
 file = "config/betterdeserttemples-neoforge-1_21.toml"

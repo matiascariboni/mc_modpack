@@ -19,6 +19,7 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Cambiado
 
+- Better Days (`config/betterdays-common.toml`): `ratioPlayersForSleep` pasa de 0.0 a 0.7 y `sleepSpeedCurve` de 0.3 a 0.05. La noche solo se acelera de verdad cuando duerme al menos el 70 % de los jugadores conectados; por debajo la aceleración es mínima.
 - Serene Seasons (`config/sereneseasons/seasons.toml`): el deshielo cambia en primavera y otoño. Mitad de primavera pasa de 100 % a 50 %. Otoño sube a `melt_rolls = 3`, con `melt_percent` de 100 % (principio), 50 % (mitad) y 25 % (final); antes era 1 sorteo con 25 %, 16,66 % y 12,5 %.
 - `seasons.toml` queda con el orden de claves que escribe el mod y `fabric/indigo-renderer.properties` se excluye en `.packwizignore` (el mod reescribe su marca de fecha en cada arranque).
 

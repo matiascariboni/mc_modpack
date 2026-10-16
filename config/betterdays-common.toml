@@ -105,7 +105,7 @@
 	#Credit to Dino Dini for the function: https://dinodini.wordpress.com/2010/04/05/normalized-tunable-sigmoid-functions/
 	#Credit to SmoothSleep for the idea: https://www.spigotmc.org/resources/smoothsleep.32043/
 	#Range: 0.0 ~ 1.0
-	sleepSpeedCurve = 0.3
+	sleepSpeedCurve = 0.05
 	### THIS SETTING DEFINES THE SLEEP TIME-SPEED IN SINGLE-PLAYER GAMES ###
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
@@ -134,7 +134,7 @@
 	#A value of 1 means all players must be sleeping, 0.5 means half the players must be sleeping, etc.
 	#A value of 0 effectively disables this feature.
 	#Range: 0.0 ~ 1.0
-	ratioPlayersForSleep = 0.0
+	ratioPlayersForSleep = 0.7
 
 	#This section defines settings for notification messages.
 	#All messages support Minecraft formatting codes (https://minecraft.wiki/w/Formatting_codes).
