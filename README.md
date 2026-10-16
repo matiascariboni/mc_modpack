@@ -64,7 +64,7 @@ La lista exacta de exclusiones está en `.packwizignore`.
 
 ## Para el administrador: flujo de trabajo
 
-Trabaja siempre desde la carpeta local del modpack (fuera de Google Drive) y con el ejecutable de packwiz.
+Trabaja siempre desde la carpeta local del modpack y con el ejecutable de packwiz.
 
     packwiz modrinth add <mod>        # CurseForge solo si no está en Modrinth: packwiz curseforge add <mod>
     packwiz update --all              # actualiza todos los mods

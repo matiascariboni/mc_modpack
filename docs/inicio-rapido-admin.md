@@ -5,9 +5,9 @@ Resumen operativo del pack y del servidor. Detalles y motivos en el [README](../
 ## Requisitos en tu PC
 
 - Git y el ejecutable `packwiz.exe` (builds en <https://nightly.link/packwiz/packwiz/workflows/go/main>).
-- Clona el repo en una **ruta local**, no dentro de Google Drive:
+- Clona el repo:
 
-        git clone https://github.com/matiascariboni/mc_modpack.git C:\dev\modpack
+        git clone https://github.com/matiascariboni/mc_modpack.git
 
 - Copia `packwiz.exe` dentro de esa carpeta (está en `.gitignore`, no se sube).
 

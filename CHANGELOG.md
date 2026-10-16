@@ -15,6 +15,7 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 - Se explicita que siempre se prefieren las descargas de Modrinth y que CurseForge solo se usa si el mod no existe allí (README y guía del administrador).
 - Nuevo procedimiento "Instalar un mod nuevo" en el README: instalar, push, lanzar una instancia, usar los configs generados por el mod como base y volver a publicar. La guía del administrador lo enlaza.
+- Se quitan referencias personales o puntuales de la documentación (aviso sobre Google Drive y la ruta local `C:\dev\modpack` del clon).
 
 ### Cambiado
 
