@@ -1066,7 +1066,7 @@ hash = "58cbdcfa94060c9d741b7e783dd1af8167fc3bd42e31d1ee6997e86a4671265d"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "c31c5756011b8eb76fbbb090a693d93ae07268a6212a4ff796c57e341a090831"
+hash = "4437052159b6fa9f4d603df4235544fb84f960da0a77e17863dd76c45ffc49f5"
 
 [[files]]
 file = "config/sereneseasonsplus-common.toml"

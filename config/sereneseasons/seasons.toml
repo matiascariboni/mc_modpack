@@ -52,7 +52,7 @@
 	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0x6EB283
-	melt_percent = 100.0
+	melt_percent = 50.0
 	max_rain_time = 60000
 	season = "MID_SPRING"
 	melt_rolls = 3
@@ -79,10 +79,10 @@
 	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0xE2A231
-	melt_percent = 16.66
+	melt_percent = 50.0
 	max_rain_time = 120000
 	season = "MID_AUTUMN"
-	melt_rolls = 1
+	melt_rolls = 3
 	max_thunder_time = 180000
 	foliage_colour = 0xEF2121
 	min_thunder_time = 12000
@@ -133,10 +133,10 @@
 	biome_temp_adjustment = -0.25
 	foliage_saturation = 0.85
 	birch_color = 0xC98A35
-	melt_percent = 12.5
+	melt_percent = 25.0
 	max_rain_time = 84000
 	season = "LATE_AUTUMN"
-	melt_rolls = 1
+	melt_rolls = 3
 	max_thunder_time = 180000
 	foliage_colour = 0xDB3030
 	min_thunder_time = 12000
@@ -295,10 +295,10 @@
 	biome_temp_adjustment = 0.0
 	foliage_saturation = -1.0
 	birch_color = 0xB1A442
-	melt_percent = 25.0
+	melt_percent = 100.0
 	max_rain_time = 132000
 	season = "EARLY_AUTUMN"
-	melt_rolls = 1
+	melt_rolls = 3
 	max_thunder_time = 180000
 	foliage_colour = 0xC44040
 	min_thunder_time = 12000

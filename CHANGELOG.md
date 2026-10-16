@@ -19,6 +19,7 @@ Todos los cambios relevantes del modpack se anotan aquí. Formato basado en [Kee
 
 ### Cambiado
 
+- Serene Seasons (`config/sereneseasons/seasons.toml`): el deshielo cambia en primavera y otoño. Mitad de primavera pasa de 100 % a 50 %. Otoño sube a `melt_rolls = 3`, con `melt_percent` de 100 % (principio), 50 % (mitad) y 25 % (final); antes era 1 sorteo con 25 %, 16,66 % y 12,5 %.
 - `seasons.toml` queda con el orden de claves que escribe el mod y `fabric/indigo-renderer.properties` se excluye en `.packwizignore` (el mod reescribe su marca de fecha en cada arranque).
 
 - Configs sincronizadas con las que generan los mods: se comparó cada config del pack con la de la instancia de Prism (308 de 311 ya eran idénticas) y `sereneseasons/seasons.toml`, `pipesnphysics-server.toml` y `fabric/indigo-renderer.properties` usan ahora el formato del archivo generado por el mod, conservando los valores del pack. `seasons.toml` incluye ya `grass_colour`, `grass_saturation`, `foliage_*` y `birch_color`; `pipesnphysics-server.toml`, las opciones nuevas `enableForeignPumps`, `foreignPumpStrengthScale` y `allowMixedPipeFluids`.
