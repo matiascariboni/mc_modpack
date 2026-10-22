@@ -53,7 +53,7 @@
 	foliage_saturation = -1.0
 	birch_color = 0x6EB283
 	melt_percent = 50.0
-	max_rain_time = 60000
+	max_rain_time = 132000
 	season = "MID_SPRING"
 	melt_rolls = 3
 	max_thunder_time = 180000
@@ -107,7 +107,7 @@
 	foliage_saturation = -1.0
 	birch_color = 0x7AAA64
 	melt_percent = 100.0
-	max_rain_time = 48000
+	max_rain_time = 112000
 	season = "EARLY_SUMMER"
 	melt_rolls = 4
 	max_thunder_time = 180000
@@ -161,7 +161,7 @@
 	foliage_saturation = -1.0
 	birch_color = 0x74AE73
 	melt_percent = 100.0
-	max_rain_time = 48000
+	max_rain_time = 112000
 	season = "LATE_SPRING"
 	melt_rolls = 4
 	max_thunder_time = 180000
@@ -323,7 +323,7 @@
 	foliage_saturation = 0.6
 	birch_color = 0xB1723B
 	melt_percent = 0.0
-	max_rain_time = 60000
+	max_rain_time = 132000
 	season = "EARLY_WINTER"
 	melt_rolls = 0
 	max_thunder_time = -1

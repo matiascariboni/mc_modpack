@@ -94,7 +94,7 @@ hash = "a9302b0253e494e7d80f0a2785bf4514b0b67da85796437ca032482db62be514"
 
 [[files]]
 file = "config/alexsmobs-common.toml"
-hash = "8e8437b4fea659e548387cd7ef18f6998ebe57ac70e124c762e647ed0d09b17a"
+hash = "64130cf57f3cbf8261bfb230a946542feb0e279422ab3b6e43c4a177f68adb85"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -1066,7 +1066,7 @@ hash = "58cbdcfa94060c9d741b7e783dd1af8167fc3bd42e31d1ee6997e86a4671265d"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "4437052159b6fa9f4d603df4235544fb84f960da0a77e17863dd76c45ffc49f5"
+hash = "aa83125c7dd7598f765489080f4b56609a27254fdeb0b2f1f4a3e14fbe841be3"
 
 [[files]]
 file = "config/sereneseasonsplus-common.toml"
