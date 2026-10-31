@@ -2049,6 +2049,11 @@ hash = "96a111adc7c6cd3e5b0cc7b570baf4b39aff23c32c8371904d761a443f3a6f54"
 metafile = true
 
 [[files]]
+file = "mods/tinycreate.pw.toml"
+hash = "e1a2cc6f6a12e1df0d747dd5a4e77ba8b1b4f88b67a01fb0d74dcd0a55af5c58"
+metafile = true
+
+[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "4d3b8772184b349551ed1048cd12724e1d9239caa61380540186a8741723e858"
 metafile = true
