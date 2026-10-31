@@ -1209,10 +1209,6 @@ file = "config/vinery.toml"
 hash = "19912990f7f94b54ea5e3acd3eecb20e43f4005a13d1dbe929da5976b91e30b7"
 
 [[files]]
-file = "config/wandytcontroller-common.toml"
-hash = "6b84ad07a29f5be2ff37714024e8b0065edaee8244ba268914b20d76cf63af19"
-
-[[files]]
 file = "config/waves-common.toml"
 hash = "13b090f3aab7bebd5136e47571699c0d066505e3c724bfa0de667f69b3b33401"
 
@@ -2080,11 +2076,6 @@ metafile = true
 [[files]]
 file = "mods/voxeldash.pw.toml"
 hash = "c52d301113b18e73078aac2d8fce44abe8106c7b686daaa8f3a39acf9b3836c1"
-metafile = true
-
-[[files]]
-file = "mods/wandyt-controller.pw.toml"
-hash = "1096aafdb7c55e5e9bd50f744858e099dcbe76d825c84cdfd126e01a5e38b5f4"
 metafile = true
 
 [[files]]
